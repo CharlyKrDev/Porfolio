@@ -9,7 +9,6 @@ import {
 } from "react-icons/io5";
 import { FaCode } from "react-icons/fa6";
 import { SiHtmlacademy } from "react-icons/si";
-import { FaFlagUsa } from "react-icons/fa";
 export const NavBar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
@@ -21,11 +20,11 @@ export const NavBar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 h-screen w-[100px] overflow-hidden bg-[#242424] hover:w-[200px] hover:overflow-visible transition-all duration-300 borderRight">
+    <nav className="fixed top-0 left-0 h-screen w-[100px] overflow-hidden bg-[#24242466] sm:hover:w-[190px]  sm:hover:overflow-visible transition-all duration-300 borderRight z-10">
       <img className="sm:h-auto h-28 m-auto" src={Logo} alt="logo" />
-      <main className="h-[50%]">
-        <ul>
-          <li className="listNav outline-0">
+      <main className="h-[47%]">
+        <ul className="gap-4">
+          <li className="listNav outline-0" title="About me">
             <a className="groupLink" href="">
               <i className="navIcon justify-center">
                 <IoHomeOutline />
@@ -33,7 +32,7 @@ export const NavBar = () => {
               <span className="navText">About me</span>
             </a>
           </li>
-          <li className="listNav outline-0">
+          <li className="listNav outline-0" title="Proyects">
             <a className="groupLink" href="">
               <i className="navIcon">
                 <FaCode />
@@ -41,7 +40,7 @@ export const NavBar = () => {
               <span className="navText">Proyects</span>
             </a>
           </li>
-          <li className="listNav outline-0">
+          <li className="listNav outline-0" title="Certification">
             <a className="groupLink" href="">
               <i className="navIcon">
                 <SiHtmlacademy />
@@ -49,20 +48,20 @@ export const NavBar = () => {
               <span className="navText">Certification</span>
             </a>
           </li>
-          <li className="listNav outline-0">
+          <li className="listNav outline-0" title="Work Experience">
             <a className="groupLink" href="">
               <i className="navIcon mt-4">
                 <IoDocumentTextOutline />
               </i>
-              <span className="navText">Work experience</span>
+              <span className="navText">Work Experience</span>
             </a>
           </li>
-          <li className="listNav outline-0">
+          <li className="listNav outline-0" title="Work Together">
             <a className="groupLink" href="">
-              <i className="navIcon">
+            <i className="navIcon mt-4">
                 <IoMailOpenOutline />
               </i>
-              <span className="navText">Contact</span>
+              <span className="navText">Work Together!</span>
             </a>
           </li>
         </ul>
@@ -78,7 +77,7 @@ export const NavBar = () => {
               <i className="navIcon">
                 <IoSettingsOutline />
               </i>
-              <span className="navText">Idioms</span>
+              <span className="navText">Language</span>
             </a>
             <ul
               className={`absolute top-full left-0 mt-2 bg-gray-400 shadow-md rounded-md ${
@@ -88,25 +87,31 @@ export const NavBar = () => {
               <li>
                 <a
                   href="#"
-                  className="block px-4 py-2 text-gray-800 hover:bg-gray-300 hover:rounded-md"
+                  className="flags"
                 >
-                  <FaFlagUsa />
+                  <span role="img" aria-label="English">
+                    &#x1F1EA;&#x1F1F3;
+                  </span>
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="block px-4 py-2 text-gray-800 hover:bg-gray-300 hover:rounded-md"
+                  className="flags"
                 >
-                  <FaFlagUsa />
+                  <span role="img" aria-label="Spanish">
+                    &#x1F1EA;&#x1F1F8;
+                  </span>
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="block px-4 py-2 text-gray-800 hover:bg-gray-300 hover:rounded-md"
+                  className="flags"
                 >
-                  <FaFlagUsa />
+                  <span role="img" aria-label="Italian">
+                    &#x1F1EE;&#x1F1F9;
+                  </span>
                 </a>
               </li>
             </ul>
