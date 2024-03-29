@@ -6,6 +6,12 @@ export default {
   ],
   theme: {
     extend: {},
+    container: {
+      center: true
+    },
+    fontFamily:{
+      'fuentePrincipal':["Montserrat, sans-serif"]
+    }
   },
   plugins: [],
 }

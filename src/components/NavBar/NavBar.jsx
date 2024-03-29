@@ -20,8 +20,8 @@ export const NavBar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 h-screen w-[100px] overflow-hidden bg-[#24242466] sm:hover:w-[190px]  sm:hover:overflow-visible transition-all duration-300 borderRight z-10">
-      <img className="sm:h-auto h-28 m-auto" src={Logo} alt="logo" />
+    <nav className="fixed top-0 left-0 h-screen w-[100px] overflow-hidden bg-[#24242466] sm:hover:w-[190px]  sm:hover:overflow-visible md:hover:overflow-hidden md:overflow-hidden  transition-all duration-300 borderRight z-10">
+      <img className="h-auto min-h-28 max-h-28 m-auto" src={Logo} alt="logo" />
       <main className="h-[47%]">
         <ul className="gap-4">
           <li className="listNav outline-0" title="About me">
@@ -67,20 +67,20 @@ export const NavBar = () => {
         </ul>
       </main>
       <footer>
-        <ul>
-          <li className="listNav outline-0 relative">
+        <ul className="pt-20">
+          <li className="listNav relative">
             <a
               className="groupLink cursor-pointer"
               href="#"
               onClick={toggleMenu}
             >
-              <i className="navIcon">
+              <i className="navIcon" title="Language">
                 <IoSettingsOutline />
               </i>
               <span className="navText">Language</span>
             </a>
             <ul
-              className={`absolute top-full left-0 mt-2 bg-gray-400 shadow-md rounded-md ${
+              className={`absolute bottom-full mb-4 bg-gray-400 shadow-md rounded-md ${
                 showMenu ? "" : "hidden"
               } ml-6`}
             >

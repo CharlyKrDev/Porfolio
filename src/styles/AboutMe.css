@@ -1,12 +1,12 @@
 .socialIcon{
 
-    background-color:#00a2ff;
+    background-color:#7FDBFF;
     border-radius: 10px;
-    border: solid 2px #00a2ff;
+    border: solid 2px #7FDBFF;
     padding: 4px;
-    color: rgb(246, 246, 246);
+    color: rgb(51, 51, 51);
     transition: all ease-in-out;
-    transition-duration: .4s;
+    transition-duration: .1s;
     font-weight: bold;
 
 }
