@@ -21,7 +21,7 @@ export const NavBar = () => {
 
   return (
     <nav className="fixed top-0 left-0 h-screen w-[100px] overflow-hidden bg-[#24242466] sm:hover:w-[190px]  sm:hover:overflow-visible md:hover:overflow-hidden md:overflow-hidden  transition-all duration-300 borderRight z-10">
-      <img className="h-auto min-h-28 max-h-28 m-auto" src={Logo} alt="logo" />
+      <img className="h-auto min-h-28 max-h-28 m-auto opacity-90" src={Logo} alt="logo" />
       <main className="h-[47%]">
         <ul className="gap-4">
           <li className="listNav outline-0" title="About me">
@@ -33,7 +33,7 @@ export const NavBar = () => {
             </a>
           </li>
           <li className="listNav outline-0" title="Proyects">
-            <a className="groupLink" href="">
+            <a className="groupLink" href="#proyects">
               <i className="navIcon">
                 <FaCode />
               </i>
@@ -41,7 +41,7 @@ export const NavBar = () => {
             </a>
           </li>
           <li className="listNav outline-0" title="Certification">
-            <a className="groupLink" href="">
+            <a className="groupLink" href="#certification">
               <i className="navIcon">
                 <SiHtmlacademy />
               </i>

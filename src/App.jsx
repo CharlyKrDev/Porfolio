@@ -1,17 +1,15 @@
 import { useState } from "react";
 import "./styles/App.css";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
-import { NavBar } from "./components/NavBar/NavBar";
-import { AboutMe } from "./components/AboutMe/AboutMe";
-
+import { LandingPage } from "./components/LandingPage.jsx/LandingPage";
 
 
 function App() {
   return (
 
     <>
-    <NavBar/>
-    <AboutMe/>
+
+    <LandingPage/>
 
     </>
   );

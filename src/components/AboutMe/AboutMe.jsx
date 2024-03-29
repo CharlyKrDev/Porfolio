@@ -8,10 +8,10 @@ import { Carrusel } from "../Carrusel/Carrusel";
 export const AboutMe = () => {
   return (
     <>
-      <main className="max-w-[70%] m-auto h-screen  flex flex-col justify-center items-center sm:relative sm:left-32 absolute right-2">
-        <section className="min-w-[50vw] flex  h-[70%]  flex-col">
-          <div className="w-full  h-auto flex ml-2">
-            <article className="w-[60%]  h-auto flex flex-col">
+      <main className="w-[80%] h-auto flex justify-center items-center m-auto mt-20 ">
+        <section className=" flex justify-center items-center max-[90%]  h-[70%]  flex-col">
+          <div className="w-full  h-auto flex ml-4">
+            <article className="w-[60%] ml-2 h-auto flex flex-col">
               <h1 className="text-4xl mt-10 m-2 font-bold">
                 ¡Hola!{" "}
                 <span className="text-[#7FDBFF]/70">

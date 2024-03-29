@@ -11,7 +11,8 @@ export default {
     },
     fontFamily:{
       'fuentePrincipal':["Montserrat, sans-serif"]
-    }
+    },
+
   },
   plugins: [],
 }
