@@ -2,6 +2,6 @@ import React from "react"
 
 export const Proyects = ()=>{
     return (
-        <div id="proyects" className="h-screen bg-green-200 w-[80%] h-auto flex justify-center items-center m-auto text-black">Proyects</div>
+        <div id="proyects" className="w-[80%] h-screen flex justify-center items-center m-auto bg-sky-400 ">Proyects</div>
     )
 }

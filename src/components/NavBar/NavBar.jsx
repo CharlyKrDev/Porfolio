@@ -8,28 +8,28 @@ import {
   IoSettingsOutline,
 } from "react-icons/io5";
 import { FaCode } from "react-icons/fa6";
-import { SiHtmlacademy } from "react-icons/si";
+import { PiStudentBold } from "react-icons/pi";
 export const NavBar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
+  
   const toggleMenu = () => {
     setShowMenu(!showMenu);
     setTimeout(() => {
       setShowMenu(false);
-    }, 2500);
+    }, 3000);
   };
 
   return (
-    <nav className="fixed top-0 left-0 h-screen w-[100px] overflow-hidden bg-[#24242466] sm:hover:w-[190px]  sm:hover:overflow-visible md:hover:overflow-hidden md:overflow-hidden  transition-all duration-300 borderRight z-10">
-      <img className="h-auto min-h-28 max-h-28 m-auto opacity-90" src={Logo} alt="logo" />
+    <nav className="fixed top-0 left-0 h-screen w-[150px] overflow-hidden bg-[#24242466] transition-all duration-300 borderRight z-10">
+      <img className="h-auto size-50 m-auto opacity-90" src={Logo} alt="logo" />
       <main className="h-[47%]">
         <ul className="gap-4">
-          <li className="listNav outline-0" title="About me">
-            <a className="groupLink" href="">
+          <li className="listNav" title="About me" onClick={()=>{window.scroll(0, 0)}}>
+            <a className="groupLink" href="#AboutMe">
               <i className="navIcon justify-center">
                 <IoHomeOutline />
               </i>
-              <span className="navText">About me</span>
             </a>
           </li>
           <li className="listNav outline-0" title="Proyects">
@@ -37,15 +37,13 @@ export const NavBar = () => {
               <i className="navIcon">
                 <FaCode />
               </i>
-              <span className="navText">Proyects</span>
             </a>
           </li>
           <li className="listNav outline-0" title="Certification">
             <a className="groupLink" href="#certification">
               <i className="navIcon">
-                <SiHtmlacademy />
+              <PiStudentBold />
               </i>
-              <span className="navText">Certification</span>
             </a>
           </li>
           <li className="listNav outline-0" title="Work Experience">
@@ -53,7 +51,6 @@ export const NavBar = () => {
               <i className="navIcon mt-4">
                 <IoDocumentTextOutline />
               </i>
-              <span className="navText">Work Experience</span>
             </a>
           </li>
           <li className="listNav outline-0" title="Work Together">
@@ -61,7 +58,6 @@ export const NavBar = () => {
             <i className="navIcon mt-4">
                 <IoMailOpenOutline />
               </i>
-              <span className="navText">Work Together!</span>
             </a>
           </li>
         </ul>
@@ -77,10 +73,9 @@ export const NavBar = () => {
               <i className="navIcon" title="Language">
                 <IoSettingsOutline />
               </i>
-              <span className="navText">Language</span>
             </a>
             <ul
-              className={`absolute bottom-full mb-4 bg-gray-400 shadow-md rounded-md ${
+              className={`absolute bottom-full mb-4 bg-[black]  rounded-md ${
                 showMenu ? "" : "hidden"
               } ml-6`}
             >
@@ -89,8 +84,8 @@ export const NavBar = () => {
                   href="#"
                   className="flags"
                 >
-                  <span role="img" aria-label="English">
-                    &#x1F1EA;&#x1F1F3;
+                  <span role="img" aria-label="English"  title="English">
+                  🇺🇸
                   </span>
                 </a>
               </li>
@@ -99,7 +94,7 @@ export const NavBar = () => {
                   href="#"
                   className="flags"
                 >
-                  <span role="img" aria-label="Spanish">
+                  <span role="img" aria-label="Spanish"  title="Spanish">
                     &#x1F1EA;&#x1F1F8;
                   </span>
                 </a>
@@ -109,7 +104,7 @@ export const NavBar = () => {
                   href="#"
                   className="flags"
                 >
-                  <span role="img" aria-label="Italian">
+                  <span role="img" aria-label="Italian"  title="Italian">
                     &#x1F1EE;&#x1F1F9;
                   </span>
                 </a>
