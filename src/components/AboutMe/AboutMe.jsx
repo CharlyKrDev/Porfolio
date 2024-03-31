@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/AboutMe.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoDocumentTextOutline } from "react-icons/io5";
-import FotoPerfil from "../../assets/img/PerfilLinkedin.png";
+import FotoPerfil from "../../assets/img/layout/PerfilLinkedin.png";
 import { Carrusel } from "../Carrusel/Carrusel";
 
 export const AboutMe = () => {
@@ -13,9 +13,9 @@ export const AboutMe = () => {
           <div className="w-full  h-auto flex ml-4">
             <article className="w-[60%] ml-2 h-auto flex flex-col">
               <h1 className="text-4xl mt-10 m-2 font-bold">
-                ¡Hola!{" "}
+                ¡Hola! Soy {" "} 
                 <span className="text-[#7FDBFF]/70">
-                  Soy Carlos Alberto Kaar
+                  Carlos Alberto Kaar
                 </span>
               </h1>
               <p className="text-wrap mb-20 text-2xl m-2 mt-10">
@@ -40,8 +40,8 @@ export const AboutMe = () => {
               />
             </div>
           </div>
-          <nav className="w-[60%] ">
-            <ul className="flex gap-2 sm:gap-8  justify-center text-[10px] sm:text-[14px]">
+          <nav className="w-[95%] mr-4 ">
+            <ul className="flex gap-2 sm:gap-8 text-[12px] sm:text-[14px]">
               <li>
                 <button className="socialIcon flex justify-center items-center gap-2">
                   <FaLinkedin />
@@ -63,7 +63,7 @@ export const AboutMe = () => {
               </li>
             </ul>
           </nav>
-          <footer className="h-auto max-w-[44vw] mt-4">
+          <footer className="h-auto max-w-[60vw] mt-4">
             <div className="my-12 flex justify-center items-center ">
               <Carrusel />
             </div>

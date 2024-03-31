@@ -12,7 +12,7 @@ export const CertificationLine = ({ certificado, id }) => {
 
 
   return (
-    <VerticalTimeline lineColor={"rgba(255, 255, 255, 0.6)"} className="w-[50%]">
+    <VerticalTimeline  lineColor={"rgba(255, 255, 255, 0.6)"} className="w-[50%]">
       <VerticalTimelineElement
         key={id}
         className={
@@ -23,8 +23,9 @@ export const CertificationLine = ({ certificado, id }) => {
         contentStyle={{
           background: "rgba(255, 255, 255, 0.1)",
           color: "rgba(255, 255, 255, 0.6)",
+          minWidth: "200px",
         }}
-        contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+        contentArrowStyle={{ borderRight: "" }}
         date={<span style={{ margin: "10px" }}>{certificado.date}</span>}
         iconStyle={{
           background: `${backColor}`,
@@ -34,6 +35,7 @@ export const CertificationLine = ({ certificado, id }) => {
         }}
         icon={<GiDiploma/>}
         >
+        <div className="w-200px">
         <img
           className="bg-red-400  cursor-pointer transition-all ease-in-out duration-500 transform active:scale-[200%] border-2"
           src={`src/assets/img/certifications/${certificado.id}.png`}
@@ -44,6 +46,7 @@ export const CertificationLine = ({ certificado, id }) => {
         <p>
          {`${certificado.description}`}
         </p>
+        </div>
       </VerticalTimelineElement>
     </VerticalTimeline>
   );

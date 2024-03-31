@@ -2,18 +2,41 @@ import { NavBar } from "/src/components/NavBar/NavBar";
 import { AboutMe } from "../AboutMe/AboutMe";
 import { Certification } from "../Certification/Certification";
 import { Proyects } from "../Proyects/Proyects";
+import { FaCode } from "react-icons/fa6";
 
 
 export const Layout = () => {
   return (
-    <main className="grid grid-cols-10 w-[100%]">
-      <nav className=" w-[150px] z-10 h-auto bg-teal-400 row-span-6  "><NavBar/></nav>
-      <section className="min-h-screen ml-12  col-star-2 col-span-9 "><AboutMe/></section>
-      <section className="min-h-screen ml-12 bg-yellow-400 col-star-2 col-span-9"><Proyects/></section>
-      <section className="min-h-screen ml-12  col-star-2 col-span-9"><Certification/></section>
-      <section className="min-h-screen ml-12 bg-blue-400 col-star-2 col-span-9 ">Experiencia</section>
-      <section className="min-h-screen ml-12 bg-sky-400 col-star-2 col-span-9">Sobre mi</section>
-      <section className="min-h-screen ml-12 bg-pink-400 col-star-2 col-span-9">Contacto</section>
+    <main className="grid grid-cols-10">
+      <nav className=" w-[100px] sm:w-[120px] z-10 h-auto row-span-6  ">
+        <NavBar />
+      </nav>
+      <section className="min-h-screen ml-12  col-star-2 col-span-9 ">
+        <AboutMe />
+      </section>
+      <section id='proyects' className="min-h-screen ml-12  col-star-2 col-span-9  ">
+        {" "}
+        <h2 className="sm:text-4xl text-3xl text-left flex gap-2 items-center mb-2 ml-2">
+          {" "}
+          <FaCode /> Proyectos
+        </h2>
+        <Proyects />
+      </section>
+      <section className="min-h-screen ml-12  col-star-2 col-span-9">
+        <Certification />
+      </section>
+      <section className="min-h-screen ml-12 bg-blue-400 col-star-2 col-span-9 ">
+        {" "}
+        <main className="sm:w-[80%] w-[100%] h-screen bg-sky-200 flex justify-center items-center">
+          Experiencia
+        </main>
+      </section>
+      <section className="min-h-screen ml-12 bg-sky-400 col-star-2 col-span-9">
+        Sobre mi
+      </section>
+      <section className="min-h-screen ml-12 bg-pink-400 col-star-2 col-span-9">
+        Contacto
+      </section>
     </main>
   );
 };

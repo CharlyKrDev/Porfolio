@@ -8,9 +8,9 @@ export const Carrusel = () => {
 
   return (
     <>
-      <main className="container max-w-[70%] flex justify-end items-center mt-2 text-white">
+      <main className="container w-[60%] items-center mt-2 text-white">
         <section className="w-full overflow-hidden">
-          <div className="flex whitespace-nowrap animateScroll">
+          <div className="flex whitespace-nowrap animateScroll mt-32">
             {logos.map((logo, index) => (
               <CardCarrusel logo={logo} key={index} />
             ))}

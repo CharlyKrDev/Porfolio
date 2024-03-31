@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../../styles/NavBar.css";
-import Logo from "../../assets/img/LogoWeb2.png";
+import Logo from "../../assets/img/layout/LogoWeb2.png";
 import {
   IoHomeOutline,
   IoDocumentTextOutline,
@@ -21,41 +21,41 @@ export const NavBar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 h-screen w-[150px] overflow-hidden bg-[#24242466] transition-all duration-300 borderRight z-10">
+    <nav className="fixed top-0 left-0 h-[100%] w-[100px] sm:w-[120px] bg-[#24242466] transition-all duration-300 borderRight">
       <img className="h-auto size-50 m-auto opacity-90" src={Logo} alt="logo" />
       <main className="h-[47%]">
         <ul className="gap-4">
           <li className="listNav" title="About me" onClick={()=>{window.scroll(0, 0)}}>
             <a className="groupLink" href="#AboutMe">
-              <i className="navIcon justify-center">
+            <i className="navIcon mr-10">
                 <IoHomeOutline />
               </i>
             </a>
           </li>
           <li className="listNav outline-0" title="Proyects">
             <a className="groupLink" href="#proyects">
-              <i className="navIcon">
+              <i className="navIcon mr-10">
                 <FaCode />
               </i>
             </a>
           </li>
           <li className="listNav outline-0" title="Certification">
             <a className="groupLink" href="#certification">
-              <i className="navIcon">
+            <i className="navIcon mr-10">
               <PiStudentBold />
               </i>
             </a>
           </li>
           <li className="listNav outline-0" title="Work Experience">
             <a className="groupLink" href="">
-              <i className="navIcon mt-4">
+            <i className="navIcon mr-10">
                 <IoDocumentTextOutline />
               </i>
             </a>
           </li>
           <li className="listNav outline-0" title="Work Together">
             <a className="groupLink" href="">
-            <i className="navIcon mt-4">
+            <i className="navIcon mr-10">
                 <IoMailOpenOutline />
               </i>
             </a>
@@ -70,7 +70,7 @@ export const NavBar = () => {
               href="#"
               onClick={toggleMenu}
             >
-              <i className="navIcon" title="Language">
+              <i className="navIcon mr-10" title="Language">
                 <IoSettingsOutline />
               </i>
             </a>
