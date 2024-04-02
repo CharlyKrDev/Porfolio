@@ -32,8 +32,8 @@ export const NavBar = () => {
               </i>
             </a>
           </li>
-          <li className="listNav outline-0" title="Proyects">
-            <a className="groupLink" href="#proyects">
+          <li className="listNav outline-0" title="Projects">
+            <a className="groupLink" href="#Projects">
               <i className="navIcon mr-10">
                 <FaCode />
               </i>

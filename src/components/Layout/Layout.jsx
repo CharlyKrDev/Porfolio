@@ -1,7 +1,7 @@
 import { NavBar } from "/src/components/NavBar/NavBar";
 import { AboutMe } from "../AboutMe/AboutMe";
 import { Certification } from "../Certification/Certification";
-import { Proyects } from "../Proyects/Proyects";
+import { Projects } from "../Projects/Projects";
 import { FaCode } from "react-icons/fa6";
 
 
@@ -14,13 +14,14 @@ export const Layout = () => {
       <section className="min-h-screen ml-12  col-star-2 col-span-9 ">
         <AboutMe />
       </section>
-      <section id='proyects' className="min-h-screen ml-12  col-star-2 col-span-9  ">
+      <section id='Projects' className="min-h-screen ml-12  col-star-2 col-span-9 p-2">
         {" "}
-        <h2 className="sm:text-4xl text-3xl text-left flex gap-2 items-center mb-2 ml-2">
+        <h2 className="sm:text-4xl text-3xl text-left flex gap-2 items-center mb-2 ml-2 ">
           {" "}
           <FaCode /> Proyectos
         </h2>
-        <Proyects />
+
+        <Projects />
       </section>
       <section className="min-h-screen ml-12  col-star-2 col-span-9">
         <Certification />

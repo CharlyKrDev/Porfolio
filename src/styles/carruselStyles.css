@@ -3,11 +3,11 @@
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-55vw); /* Ajusta este valor según el ancho de tu carrusel */
+        transform: translateX(-105vw); /* Ajusta este valor según el ancho de tu carrusel */
     }
 }
 
 .animateScroll {
-    animation: scroll 50s linear infinite;
+    animation: scroll 40s linear infinite;
     
 }
