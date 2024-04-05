@@ -36,7 +36,7 @@ export const Projects = () => {
                 <NavLink to={project.github} target="_blank">
                   <button className={projectsButton}>
                     <FaGithub />
-                    GitHub
+                    GitHub 
                   </button>
                 </NavLink>
                 <NavLink to={project.vercel} target="_blank">

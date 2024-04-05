@@ -11,9 +11,9 @@ export const certificadoIt = [
     },
     {
         id:1,
-        title: "React",
+        title: "Desarrollador Front-end React",
         institution: 'CoderHouse',
-        description: 'Carrera',
+        description: 'En el transcurso de la carrera he adquirido conocimientos fundamentales sobre React, incluyendo: componentes, estado y props, ciclo de vida de los componentes, manejo de eventos, enrutamiento con React Router, gestión del estado global con Context API, y la creación de aplicaciones de una sola página (SPA). Además, he explorado prácticas avanzadas como el uso de Hooks, la integración de APIs externas, la optimización del rendimiento y el despliegue de aplicaciones React en entornos de producción. El proyecto final del curso consistió en desarrollar el front-end de un e-commerce basado en React con la implementación de funcionalidades CRUD  (Create, Read, Update, Delete)  mediante Firebase, demostrando la implementación de los conceptos aprendidos en un contexto práctico.',
         date: "2024 - Completado",
         top: true
     },
@@ -21,7 +21,7 @@ export const certificadoIt = [
         id: 2,
         title: `JavaScript`,
         institution: 'CoderHouse',
-        description: 'Durante el curso he aprendido: Los Fundamentos de JavaScript, DOM Manipulation, Event Handling,AJAX y Fetch API, ECMAScript 6 (ES6), Bibliotecas Front-end, Gestión de aplicaciones, Rutas y navegación. El Projecto final ha sido el front-end de un e-commerce.',
+        description: 'Durante el curso he aprendido: Los Fundamentos de JavaScript, DOM Manipulation, Event Handling,AJAX y Fetch API, ECMAScript 6 (ES6), Bibliotecas Front-end, Gestión de aplicaciones, Rutas y navegación. El Proyecto final ha sido el front-end de un e-commerce.',
         date:"2023 - Completado",
         top: true
 
@@ -58,7 +58,7 @@ export const certificadoIt = [
         id: 6,
         title: `Git | GitHub`,
         institution: 'Microsoft Learn',
-        description: '"GitHub Universe 2023 Cloud Skills Challenge" propuesto por Microsoft junto con GitHub, donde aprendiste a trabajar con uno de los sistemas de control de versiones distribuidos (DVCS) más importantes en el mundo del desarrollo de software.',
+        description: '"GitHub Universe 2023 Cloud Skills Challenge" propuesto por Microsoft junto con GitHub, donde aprendí a trabajar con uno de los sistemas de control de versiones distribuidos (DVCS) más importantes en el mundo del desarrollo de software.',
         date: "2023 - Completado",
         top: false
 

@@ -22,11 +22,11 @@ export const NavBar = () => {
 
   return (
     <nav className="fixed top-0 left-0 h-[100%] w-[100px] sm:w-[120px] bg-[#24242466] transition-all duration-300 borderRight">
-      <img className="h-auto size-50 m-auto opacity-90" src={Logo} alt="logo" />
+      <img  onClick={()=>{window.scroll(0, 0)}} className="h-auto size-50 m-auto opacity-90 cursor-pointer" src={Logo} alt="logo" />
       <main className="h-[47%]">
         <ul className="gap-4">
-          <li className="listNav" title="About me" onClick={()=>{window.scroll(0, 0)}}>
-            <a className="groupLink" href="#AboutMe">
+          <li className="listNav" title="Home" onClick={()=>{window.scroll(0, 0)}}>
+            <a className="groupLink" href="#Home">
             <i className="navIcon mr-10">
                 <IoHomeOutline />
               </i>
@@ -53,8 +53,8 @@ export const NavBar = () => {
               </i>
             </a>
           </li>
-          <li className="listNav outline-0" title="Work Together">
-            <a className="groupLink" href="">
+          <li className="listNav outline-0" title="Contact">
+            <a className="groupLink" href="#contact">
             <i className="navIcon mr-10">
                 <IoMailOpenOutline />
               </i>
@@ -67,7 +67,6 @@ export const NavBar = () => {
           <li className="listNav relative">
             <a
               className="groupLink cursor-pointer"
-              href="#"
               onClick={toggleMenu}
             >
               <i className="navIcon mr-10" title="Language">

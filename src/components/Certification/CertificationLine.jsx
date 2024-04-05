@@ -37,9 +37,9 @@ export const CertificationLine = ({ certificado, id }) => {
         }}
         icon={<GiDiploma/>}
         >
-        <div className="w-200px">
+        <div className="">
         <img
-          className="bg-red-400  cursor-pointer transition-all ease-in-out duration-500 transform active:scale-[200%] border-2"
+          className="h-200px cursor-pointer transition-all ease-in-out duration-500 transform active:scale-[200%] border-2"
           src={`src/assets/img/certifications/${certificado.id}.png`}
           alt={`${certificado.title}`}
         />

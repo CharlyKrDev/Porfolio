@@ -4,6 +4,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import FotoPerfil from "../../assets/img/layout/PerfilLinkedin.png";
 import { Carrusel } from "../Carrusel/Carrusel";
+import { NavLink } from "react-router-dom";
+NavLink
 
 export const AboutMe = () => {
   return (
@@ -42,25 +44,39 @@ export const AboutMe = () => {
           </div>
           <nav className="w-[95%] mr-4 ">
             <ul className="flex gap-2 sm:gap-8 text-[12px] sm:text-[14px]">
-              <li>
+            <NavLink to={'https://www.linkedin.com/in/carlos-alberto-kaar/'} target="blank">
+            <li>
                 <button className="socialIcon flex justify-center items-center gap-2">
                   <FaLinkedin />
                   Linkedin
                 </button>
               </li>
-              <li>
+            </NavLink>
+
+        <NavLink to={'https://github.com/CharlyKrDev'} target="blank">
+
+        <li>
                 <button className="socialIcon flex justify-center items-center gap-2">
                   {" "}
                   <FaGithub />
                   GitHub
                 </button>
               </li>
-              <li>
+
+        </NavLink>
+
+        <NavLink to={'https://github.com/CharlyKrDev'} target="blank">
+        
+        <li>
                 <button className="socialIcon flex justify-center items-center gap-2">
                   <IoDocumentTextOutline />
                   Curriculum
                 </button>
               </li>
+          
+        </NavLink>
+
+
             </ul>
           </nav>
           <footer className="h-auto max-w-[60vw] mt-4">
