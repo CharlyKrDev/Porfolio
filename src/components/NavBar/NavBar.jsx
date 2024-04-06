@@ -3,12 +3,13 @@ import "../../styles/NavBar.css";
 import Logo from "../../assets/img/layout/LogoWeb2.png";
 import {
   IoHomeOutline,
-  IoDocumentTextOutline,
   IoMailOpenOutline,
   IoSettingsOutline,
 } from "react-icons/io5";
 import { FaCode } from "react-icons/fa6";
 import { PiStudentBold } from "react-icons/pi";
+import { BsPersonCircle } from "react-icons/bs";
+
 export const NavBar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
@@ -46,10 +47,10 @@ export const NavBar = () => {
               </i>
             </a>
           </li>
-          <li className="listNav outline-0" title="Work Experience">
-            <a className="groupLink" href="">
+          <li className="listNav outline-0" title="About Me">
+            <a className="groupLink" href="#aboutMe">
             <i className="navIcon mr-10">
-                <IoDocumentTextOutline />
+                <BsPersonCircle />
               </i>
             </a>
           </li>

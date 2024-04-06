@@ -1,89 +1,110 @@
-import React from "react";
-import "../../styles/AboutMe.css";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { IoDocumentTextOutline } from "react-icons/io5";
-import FotoPerfil from "../../assets/img/layout/PerfilLinkedin.png";
-import { Carrusel } from "../Carrusel/Carrusel";
-import { NavLink } from "react-router-dom";
-NavLink
+import Arg from "../../assets/img/icons/Flag_of_Argentina.svg";
 
 export const AboutMe = () => {
+  const sectionAboutMe =
+    "flex  flex-col gap-2 border-2 border-[#33fd2c]/50 h-[100%] p-2 bg-[#ffffff0c] rounded-lg";
+  const h2AboutMe = "text-xl text-[#b458eeb2] font-bold ml-2 my-4 min-h-[70px]";
+  const ulAboutMe = "flex flex-col gap-4";
+  const liAboutMe = "flex gap-2 items-center";
+  const spanAboutMe = "text-4xl";
   return (
     <>
-      <main className="w-[80%] h-auto flex justify-center items-center m-auto mt-20 ">
-        <section className=" flex justify-center items-center max-[90%]  h-[70%]  flex-col">
-          <div className="w-full  h-auto flex ml-4">
-            <article className="w-[60%] ml-2 h-auto flex flex-col">
-              <h1 className="text-4xl mt-10 m-2 font-bold">
-                ¡Hola! Soy {" "} 
-                <span className="text-[#7FDBFF]/70">
-                  Carlos Alberto Kaar
-                </span>
-              </h1>
-              <p className="text-wrap mb-20 text-2xl m-2 mt-10">
-                <strong className="text-[#33fd2c]/70">
-                  Un apasionado desarrollador de aplicaciones web. <br />
-                </strong>
-                Actualmente resido en <span>Piacenza, Italia,</span> donde me
-                encuentro inmerso en el mundo del desarrollo web. Mi enfoque
-                principal es el <span>Front-End,</span> aunque también estoy
-                profundizando mis conocimientos en el <span>Back-End. </span>
-                <strong className="text-[#d38aff]/70">
-                  Siempre en busca de nuevos desafíos y oportunidades para
-                  seguir innovando.
-                </strong>
+      <main className="w-[90%] text-[16px] h-auto p-2 m-auto justify-center items-center grid grid-cols-1 grid-rows-2 sm:grid-cols-2 sm:grid-rows-2 gap-8">
+        <section className={sectionAboutMe}>
+          <h2 className={h2AboutMe}>Conóceme un poco mas</h2>
+          <ul className={ulAboutMe}>
+            <li className={liAboutMe}>
+              <img className="size-8 m-2 opacity-70" src={Arg} alt="" />
+              <p>
+                {" "}
+                Recientemente me mude de Argentina a Italia y estoy disfrutando
+                de la experiencia.
               </p>
-            </article>
-            <div className="w-[40%]  h-[70%] max-h-[30vh]">
-              <img
-                className="mt-14 aspect-square flex m-auto rounded-full border-2 border-[#00fcfc]/70 opacity-95 sm:h-auto h-20 max-h-60 ml-8"
-                src={FotoPerfil}
-                alt="FotoPerfil"
-              />
-            </div>
-          </div>
-          <nav className="w-[95%] mr-4 ">
-            <ul className="flex gap-2 sm:gap-8 text-[12px] sm:text-[14px]">
-            <NavLink to={'https://www.linkedin.com/in/carlos-alberto-kaar/'} target="blank">
-            <li>
-                <button className="socialIcon flex justify-center items-center gap-2">
-                  <FaLinkedin />
-                  Linkedin
-                </button>
-              </li>
-            </NavLink>
-
-        <NavLink to={'https://github.com/CharlyKrDev'} target="blank">
-
-        <li>
-                <button className="socialIcon flex justify-center items-center gap-2">
-                  {" "}
-                  <FaGithub />
-                  GitHub
-                </button>
-              </li>
-
-        </NavLink>
-
-        <NavLink to={'https://github.com/CharlyKrDev'} target="blank">
-        
-        <li>
-                <button className="socialIcon flex justify-center items-center gap-2">
-                  <IoDocumentTextOutline />
-                  Curriculum
-                </button>
-              </li>
-          
-        </NavLink>
-
-
-            </ul>
-          </nav>
-          <footer className="h-auto max-w-[60vw] mt-4">
-            <div className="my-12 flex justify-center items-center ">
-              <Carrusel />
-            </div>
-          </footer>
+            </li>
+            <li className={liAboutMe}>
+              <span className={spanAboutMe}>&#x1F4BB;</span>
+              <p>Soy Técnico orientado en telecomunicaciones.</p>
+            </li>
+            <li className={liAboutMe}>
+              <span className={spanAboutMe}>&#x1F355;</span>
+              <p>Me gustan las pizzas y pasar tiempo con mi familia.</p>
+            </li>
+            <li className={liAboutMe}></li>
+          </ul>
+        </section>
+        <section className={sectionAboutMe}>
+          <h2 className={h2AboutMe}>Hobbies</h2>
+          <ul className={ulAboutMe}>
+            <li className={liAboutMe}>
+              {" "}
+              <span className={spanAboutMe}>&#x1F373;</span>{" "}
+              <p>
+                Me encanta cocinar, asi que estudie gastronomía como pasatiempo.
+              </p>
+            </li>
+            <li className={liAboutMe}>
+              <span className={spanAboutMe}> &#x1F6B4;</span>
+              <p>
+                Disfruto del aire libre, y me gusta realizar trekking y
+                ciclismo.
+              </p>
+            </li>
+            <li className={liAboutMe}>
+              <span className={spanAboutMe}>&#x1F4D6;</span>{" "}
+              <p>También me gusta leer y ver series.</p>
+            </li>
+            <li className={liAboutMe}></li>
+          </ul>
+        </section>
+        <section className={sectionAboutMe}>
+          <h2 className={h2AboutMe}>Habilidades</h2>
+          <ul className={ulAboutMe}>
+            <li className={liAboutMe}>
+              <span className={spanAboutMe}>&#x1F5FA; </span> Hablo español de
+              forma nativa, ingles nivel B2 y estoy aprendiendo italiano A2-B1.{" "}
+            </li>
+            <li className={liAboutMe}>
+              <span className={spanAboutMe}>&#x23F3;</span> Estoy familiarizado
+              con las metodologías LEAN, AGILE y me estoy certificado en SCRUM.
+            </li>
+            <li className={liAboutMe}>
+              {" "}
+              <span className={spanAboutMe}>&#x1F91D;</span>{" "}
+              <p>
+                Me gusta, y estoy acostumbrado a trabajar en equipo. Soy
+                proactivo. Y gracias a mi experiencia previa he desarrollado
+                escucha activa, gestión de clientes y resolución de problemas.
+              </p>{" "}
+            </li>
+            <li className={liAboutMe}></li>
+          </ul>
+        </section>
+        <section className={sectionAboutMe}>
+          <h2 className={h2AboutMe}>Objetivos</h2>
+          <ul className={ulAboutMe}>
+            <li className={liAboutMe}>
+              <span className={spanAboutMe}>&#x2328;</span>
+              <p>
+                Seguir desarrollándome como programador web FullStack, por tal motivo, actualmente estoy estudiando back-end no relacional.
+              </p>
+            </li>
+            <li className={liAboutMe}>
+            <span className='text-3xl' >&#x2705;</span>
+              <p>
+                Ser parte de un equipo de trabajo para y desarrollar proyectos
+                de calidad que resuelvan una o varias necesidades.
+              </p>
+            </li>
+            <li className={liAboutMe}>
+            <span className='text-3xl' >&#x1F4A1;
+              </span>
+              <p>Crear ideas propias y la tuya.</p>
+            </li>
+            <li className={liAboutMe}>
+              <span className='text-3xl'>&#x1F601;</span>
+              <p className="mb-1">Disfrutar de las posibilidades.</p>
+            </li>
+          </ul>
         </section>
       </main>
     </>

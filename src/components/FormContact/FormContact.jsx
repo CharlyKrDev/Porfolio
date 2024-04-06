@@ -4,15 +4,15 @@ import { AiOutlineMail } from "react-icons/ai";
 import { TbMessage } from "react-icons/tb";
 import { IoPersonOutline } from "react-icons/io5";
 import { PiHandshake } from "react-icons/pi";
-import { SiMinutemailer } from "react-icons/si";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-
-
+import LinkedinIcon from '../../assets/img/icons/linkedin.svg'
+import GitHubIcon from '../../assets/img/icons/github.svg'
+import GmailIcon from '../../assets/img/icons/Gmail_icon_(2020).svg.png'
 import { toast } from "react-toastify";
+import { NavLink } from 'react-router-dom';
 
 
 export const FormContact = () => {
-  const iconsStyle = 'flex items-center  hover:bg-[#ffffff70] hover:rounded-md transition-all ease-in-out duration-300 gap-2'
+  const iconsStyle = 'flex items-center  hover:bg-[#ffffff70] hover:rounded-md transition-all ease-in-out duration-300 gap-2 p-1'
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -50,20 +50,30 @@ export const FormContact = () => {
   return (
 <main className='sm:w-[90%] w-[100%] h-auto gap-2 grid sm:grid-cols-2 grid-cols-1 justify-center items-center m-auto'>
 <section className='h-auto flex flex-col gap-4 p-2 text-wrap max-w-[65%] m-auto'>
-    <h3 className='sm:text-2xl text-xl'>Gracias por tomarte el tiempo de ver mi porfolio, ahora te invito a que trabajemos juntos!! </h3> <span className='sm:text-4xl text-3xl'><PiHandshake /></span>
+    <h3 className='sm:text-2xl text-xl font-semibold text-[#7FDBFF]/70'>Gracias por tomarte el tiempo de ver mi porfolio, ahora te invito a que trabajemos juntos!! </h3> <span className='sm:text-4xl text-3xl text-[#7FDBFF]/70'><PiHandshake /></span>
 
     <ul className='flex flex-col gap-2'>
         <li>
-        <a className={iconsStyle} href="mailto:charlykrdev@gmail.com"><SiMinutemailer />Contactame por e-mail </a>
+        <NavLink to={'mailto:charlykrdev@gmail.com'}>
+        <button className={iconsStyle}><img className='size-5' src={GmailIcon} alt="" />Contácteme por e-mail </button>
+        </NavLink>
         </li>
         <li>
-          <a className='flex items-center  cursor-text' href=""> Mis redes:</a>
+          <h2 className='flex items-center  text-xl' href=""> Mis redes:</h2>
         </li>
         <li>
-          <a className={iconsStyle} href=""> <FaLinkedin /> Linkedin</a>
+        <NavLink to={'https://www.linkedin.com/in/carlos-alberto-kaar/'} target="blank">
+        <button className={iconsStyle}> <img src={LinkedinIcon} alt="CarlosKaarLinkedin" /> Linkedin</button>
+
+        </NavLink>
+
         </li>
         <li>
-            <a className={iconsStyle} href=""><FaGithub/>GitHub</a>
+        <NavLink to={'https://github.com/CharlyKrDev'} target="blank">
+        <button className={iconsStyle}><img className='invert' src={GitHubIcon} alt="CharlyKrDevGitHub" />GitHub</button>
+
+        </NavLink>
+
         </li>
     </ul>
 
