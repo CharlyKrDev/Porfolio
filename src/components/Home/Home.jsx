@@ -17,7 +17,7 @@ export const Home = () => {
               <h1 className="text-4xl mt-10 m-2 font-bold">
                 ¡Hola! Soy {" "} 
                 <span className="text-[#4661f8]/70">
-                  Carlos Alberto Kaar
+                  Carlos Alberto Kaaar
                 </span>
               </h1>
               <p className="text-wrap mb-20 text-2xl m-2 mt-10">
