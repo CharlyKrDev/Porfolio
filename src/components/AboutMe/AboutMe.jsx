@@ -19,7 +19,7 @@ export const AboutMe = () => {
               <img className="size-8 m-2 opacity-70" src={Arg} alt="" />
               <p>
                 {" "}
-                Soy argentino.
+                Nací en Argentina.
               </p>
             </li>
             <li className={liAboutMe}>
@@ -73,7 +73,7 @@ export const AboutMe = () => {
             </li>
             <li className={liAboutMe}>
               <span className={spanAboutMe}>&#x23F3;</span> Estoy familiarizado
-              con las metodologías LEAN, AGILE y me estoy certificado en SCRUM.
+              con la metodología LEAN, y me estoy certificado en SCRUM y AGILE .
             </li>
             <li className={liAboutMe}>
               {" "}
