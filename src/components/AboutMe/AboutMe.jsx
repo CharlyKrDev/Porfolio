@@ -1,4 +1,6 @@
 import Arg from "../../assets/img/icons/Flag_of_Argentina.svg";
+import Ita from "../../assets/img/icons/Flag_of_Italy.svg.png";
+
 
 export const AboutMe = () => {
   const sectionAboutMe =
@@ -17,8 +19,14 @@ export const AboutMe = () => {
               <img className="size-8 m-2 opacity-70" src={Arg} alt="" />
               <p>
                 {" "}
-                Recientemente me mude de Argentina a Italia y estoy disfrutando
-                de la experiencia.
+                Soy argentino.
+              </p>
+            </li>
+            <li className={liAboutMe}>
+              <img className="size-8 m-2 opacity-70" src={Ita} alt="" />
+              <p>
+                {" "}
+                Actualmente estoy viviendo en Piacenza, Italia.
               </p>
             </li>
             <li className={liAboutMe}>
@@ -27,7 +35,7 @@ export const AboutMe = () => {
             </li>
             <li className={liAboutMe}>
               <span className={spanAboutMe}>&#x1F355;</span>
-              <p>Me gustan las pizzas y pasar tiempo con mi familia.</p>
+              <p>Me gusta la pizza y pasar tiempo con mi familia.</p>
             </li>
             <li className={liAboutMe}></li>
           </ul>
@@ -89,19 +97,19 @@ export const AboutMe = () => {
               </p>
             </li>
             <li className={liAboutMe}>
-            <span className='text-3xl' >&#x2705;</span>
+            <span className={spanAboutMe} >&#x2705;</span>
               <p>
                 Ser parte de un equipo de trabajo para y desarrollar proyectos
                 de calidad que resuelvan una o varias necesidades.
               </p>
             </li>
             <li className={liAboutMe}>
-            <span className='text-3xl' >&#x1F4A1;
+            <span className='text-5xl' >&#x1F4A1;
               </span>
-              <p>Crear ideas propias y la tuya.</p>
+              <p>Seguir desarrollando mis ideas, y hacer posible las tuya.</p>
             </li>
             <li className={liAboutMe}>
-              <span className='text-3xl'>&#x1F601;</span>
+              <span className={spanAboutMe}>&#x1F601;</span>
               <p className="mb-1">Disfrutar de las posibilidades.</p>
             </li>
           </ul>

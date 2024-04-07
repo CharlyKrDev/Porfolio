@@ -31,7 +31,7 @@ export const Projects = () => {
             </div>
             <div className=" flex flex-col justify-center items-center">
               <h2 className="max-w-[90%] min-w-[50%]  sm:text-md text-sm">{project.title}</h2>
-              <p className="max-w-[90%] min-w-[50%] ">{project.description}</p>
+              <p className="max-w-[90%] min-w-[50%]">{project.description}</p>
               <div className="flex gap-2 mt-3 flex-wrap justify-center">
                 <NavLink to={project.github} target="_blank">
                   <button className={projectsButton}>

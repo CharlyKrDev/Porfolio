@@ -42,7 +42,7 @@ export const Layout = () => {
       </section>
       <section
         id="aboutMe"
-        className="min-h-screen ml-12 col-star-2 col-span-9 m-auto w-[90%]"
+        className="min-h-screen ml-12 col-star-2 col-span-9 m-auto w-[90%] mb-8"
       >
         <h2 className={h2Layout}>
           {" "}

@@ -12,7 +12,7 @@ import { NavLink } from 'react-router-dom';
 
 
 export const FormContact = () => {
-  const iconsStyle = 'flex items-center  hover:bg-[#ffffff70] hover:rounded-md transition-all ease-in-out duration-300 gap-2 p-1'
+  const iconsStyle = 'flex items-center  hover:bg-[#ffffff30] hover:rounded-md transition-all ease-in-out duration-300 gap-2 p-1'
   const form = useRef();
 
   const sendEmail = (e) => {

@@ -16,17 +16,15 @@ export const Home = () => {
             <article className="w-[60%] ml-2 h-auto flex flex-col">
               <h1 className="text-4xl mt-10 m-2 font-bold">
                 ¡Hola! Soy {" "} 
-                <span className="text-[#7FDBFF]/70">
+                <span className="text-[#4661f8]/70">
                   Carlos Alberto Kaar
                 </span>
               </h1>
               <p className="text-wrap mb-20 text-2xl m-2 mt-10">
                 <strong className="text-[#33fd2c]/70">
-                  Un apasionado desarrollador de aplicaciones web. <br />
+                  Un apasionado por el desarrollado de aplicaciones web. <br />
                 </strong>
-                Actualmente resido en <span>Piacenza, Italia,</span> donde me
-                encuentro inmerso en el mundo del desarrollo web. Mi enfoque
-                principal es el <span>Front-End,</span> aunque también estoy
+                 Mi enfoque principal es el <span>Front-End,</span> aunque también estoy
                 profundizando mis conocimientos en el <span>Back-End. </span>
                 <strong className="text-[#d38aff]/70">
                   Siempre en busca de nuevos desafíos y oportunidades para
