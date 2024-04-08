@@ -1,0 +1,13 @@
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-105vw); /* Ajusta este valor según el ancho de tu carrusel */
+    }
+}
+
+.animateScroll {
+    animation: scroll 40s linear infinite;
+    
+}

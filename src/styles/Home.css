@@ -1,0 +1,27 @@
+.socialIcon{
+
+    background-color:#7FDBFF;
+    border-radius: 10px;
+    border: solid 2px #7FDBFF;
+    padding: 4px;
+    color: rgb(51, 51, 51);
+    transition: all ease-in-out;
+    transition-duration: .1s;
+    font-weight: bold;
+
+}
+
+.socialIcon:hover{
+    background-color: #00fcfc;
+    color: black;
+    transform: scale(1.02);
+    font-weight: bold;
+    border: solid 2px #00fcfc;
+
+
+}
+
+.socialIcon:active{
+    transform: scale(0.9);
+}
+
