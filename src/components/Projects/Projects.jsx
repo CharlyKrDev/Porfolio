@@ -23,7 +23,7 @@ export const Projects = () => {
               {" "}
               <NavLink to={project.vercel} target="_blank">
                 <img
-                  className="max-h-80 min-h-20 w-100 rounded-2xl border-2 border-green-900"
+                  className="max-h-80 min-h-20 max-w-90 rounded-2xl border-2 border-green-900"
                   src={project.img}
                   alt={project.title}
                 />
