@@ -9,8 +9,12 @@ import { Footer } from "../Footer/Footer";
 import { AboutMe } from "../AboutMe/AboutMe";
 import { BsPersonCircle } from "react-icons/bs";
 import { PiStudentBold } from "react-icons/pi";
+import {useTranslation} from 'react-i18next'
+
 
 export const Layout = () => {
+  const {t} = useTranslation()
+
   const h2Layout =
     "sm:text-4xl text-3xl text-left flex gap-2 items-center mb-20 ml-2";
   return (
@@ -28,14 +32,14 @@ export const Layout = () => {
         {" "}
         <h2 className={h2Layout}>
           {" "}
-          <FaCode /> Proyectos
+          <FaCode /> {t('layout.projects')}
         </h2>
         <Projects />
       </section>
       <section id="certification" className="min-h-screen ml-12  col-star-2 col-span-9 m-auto w-[90%] ">
         <h2 className={h2Layout}>
           {" "}
-          <PiStudentBold /> Certificados
+          <PiStudentBold /> {t('layout.certification')}
         </h2>
 
         <Certification />
@@ -47,7 +51,7 @@ export const Layout = () => {
         <h2 className={h2Layout}>
           {" "}
           <BsPersonCircle />
-          Sobre Mi
+          {t('layout.aboutme')}
         </h2>
         <AboutMe />
       </section>
@@ -57,7 +61,7 @@ export const Layout = () => {
       >
         <h2 className={h2Layout}>
           <IoMailOpenOutline />
-          Contacto
+          {t('layout.contact')}
         </h2>
         <FormContact />
         <Footer />

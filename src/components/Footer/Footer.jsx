@@ -1,11 +1,14 @@
+import {useTranslation} from 'react-i18next'
+
 export const Footer = ()=>{
 
+    const {t} = useTranslation()
 
 
     return(
 
         <footer className="flex h-[50px]">
             <h2 className='m-auto'>
-                Sitio web desarrollado con ReactJS por CharlyKrDev 2024</h2></footer>
+                {t('footer.footerH2')}</h2></footer>
     )
 }

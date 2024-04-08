@@ -6,8 +6,12 @@ import FotoPerfil from "../../assets/img/layout/PerfilLinkedin.png";
 import { Carrusel } from "../Carrusel/Carrusel";
 import { NavLink } from "react-router-dom";
 import CV from '../../data/CV/CV_Carlos_Kaar_ES.pdf'
+import {useTranslation} from 'react-i18next'
+
 
 export const Home = () => {
+  const {t} = useTranslation()
+
   return (
     <>
       <main className="w-[80%] h-auto flex justify-center items-center m-auto mt-20 ">
@@ -15,20 +19,18 @@ export const Home = () => {
           <div className="w-full  h-auto flex ml-4">
             <article className="w-[60%] ml-2 h-auto flex flex-col">
               <h1 className="text-4xl mt-10 m-2 font-bold">
-                ¡Hola! Soy {" "} 
+              {t('home.h1')} {" "} 
                 <span className="text-[#4661f8]/70">
-                  Carlos Alberto Kaaar
+                  Carlos Alberto Kaar
                 </span>
               </h1>
               <p className="text-wrap mb-20 text-2xl m-2 mt-10">
                 <strong className="text-[#33fd2c]/70">
-                  Un apasionado por el desarrollado de aplicaciones web. <br />
+                {t('home.pStrong')} <br />
                 </strong>
-                 Mi enfoque principal es el <span>Front-End,</span> aunque también estoy
-                profundizando mis conocimientos en el <span>Back-End. </span>
+                {t('home.p')} <span>Front-End,</span> {t('home.p2')}<span>Back-End. </span>
                 <strong className="text-[#d38aff]/70">
-                  Siempre en busca de nuevos desafíos y oportunidades para
-                  seguir innovando.
+                {t('home.pStrong2')}
                 </strong>
               </p>
             </article>
