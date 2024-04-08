@@ -1,4 +1,14 @@
-3.
+
+import backCert from '../assets/img/certifications/0.png'
+import reactCert from '../assets/img/certifications/1.png'
+import jsCert from '../assets/img/certifications/2.png'
+import wpCert from '../assets/img/certifications/3.png'
+import devCert from '../assets/img/certifications/4.png'
+import dataCert from '../assets/img/certifications/5.png'
+import gitCert from '../assets/img/certifications/6.png'
+import devUtn from '../assets/img/certifications/7.png'
+
+
 
 export const certificadoIt = [
     {
@@ -7,7 +17,8 @@ export const certificadoIt = [
         institution: 'CoderHouse',
         description: 'certification.0.desc',
         date: "certification.8.act",
-        top: false
+        top: false,
+        img:`${backCert}`
     },
     {
         id:1, 
@@ -15,7 +26,8 @@ export const certificadoIt = [
         institution: 'CoderHouse',
         description: 'certification.1.desc',
         date: "certification.8.comple24",
-        top: true
+        top: true,
+        img:`${reactCert}`
     },
     {
         id: 2,
@@ -23,7 +35,8 @@ export const certificadoIt = [
         institution: 'CoderHouse',
         description: 'certification.2.desc',
         date: "certification.8.comple23",
-        top: true
+        top: true,
+        img:`${jsCert}`
 
     },
 
@@ -33,7 +46,8 @@ export const certificadoIt = [
         institution: 'CoderHouse',
         description: 'certification.3.desc',
         date: "certification.8.comple23",
-        top: false
+        top: false,
+        img:`${wpCert}`
 
     },
     {
@@ -42,7 +56,8 @@ export const certificadoIt = [
         institution: 'CoderHouse',
         description: 'certification.4.desc',
         date: "certification.8.comple23",
-        top: false
+        top: false,
+        img:`${devCert}`
 
     },
     {
@@ -51,7 +66,8 @@ export const certificadoIt = [
         institution: 'Data & analytic',
         description: 'certification.5.desc',
         date: "certification.8.comple23",
-        top: false
+        top: false,
+        img:`${dataCert}`
 
     },
     {
@@ -60,7 +76,8 @@ export const certificadoIt = [
         institution: 'Microsoft Learn',
         description: 'certification.6.desc',
         date: "certification.8.comple23",
-        top: false
+        top: false,
+        img:`${gitCert}`
 
     },
     {
@@ -69,7 +86,8 @@ export const certificadoIt = [
         institution: 'Universidad Tecnológica Nacional e-Learning',
         description: 'certification.7.desc',
         date: "certification.8.comple18",
-        top: false
+        top: false,
+        img:`${devUtn}`
 
     },
 
