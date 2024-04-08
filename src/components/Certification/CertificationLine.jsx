@@ -9,12 +9,13 @@ import { RiMedalLine } from "react-icons/ri";
 import {useTranslation} from 'react-i18next'
 
 
+
 export const CertificationLine = ({ certificado, id }) => {
   const backColor = certificado.id % 2 === 0 ? "rgba(255, 255, 255)" : "rgba(0, 0, 0, 0.9)";
   const backColorIcon = certificado.id % 2 === 0 ? "rgba(0, 0, 0, 0.9)"  : "rgba(255, 255, 255)";
   const topClass =`${certificado.top ? "flex items-center gap-2 text-[#FFD700] font-bold mb-1": "hidden"}`
+  
   const {t} = useTranslation()
-  const img = `src/assets/img/certifications/${certificado.id}.png`
 
 
 
@@ -45,7 +46,7 @@ export const CertificationLine = ({ certificado, id }) => {
         <div className="">
         <img
           className="h-200px cursor-pointer transition-all ease-in-out duration-500 transform active:scale-[200%] border-2"
-          src={img}
+          src={`${certificado.img}`}
           alt={t(certificado.title)}
         />
         <h3 className="my-2 text-2xl font-semibold vertical-timeline-element-title">{t(certificado.title)}</h3><span className={topClass}> <RiMedalLine />TOP 10</span>
