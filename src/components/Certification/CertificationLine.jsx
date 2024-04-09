@@ -20,7 +20,7 @@ export const CertificationLine = ({ certificado, id }) => {
 
 
   return (
-    <VerticalTimeline  lineColor={"rgba(255, 255, 255, 0.6)"} className="w-[65%] sm:w-[50%]">
+    <VerticalTimeline  lineColor={"rgba(255, 255, 255, 0.6)"} className="w-[100%] sm:w-[50%]">
       <VerticalTimelineElement
         key={id}
         className={

@@ -7,8 +7,8 @@ export const Footer = ()=>{
 
     return(
 
-        <footer className="flex h-[50px] text-xs sm:text-lg ml-8">
-            <h2 className='m-auto'>
+        <footer className="flex h-[50px] text-xs sm:text-lg bg-red-100">
+            <h2 className='m-auto text-center'>
                 {t('footer.footerH2')}</h2></footer>
     )
 }

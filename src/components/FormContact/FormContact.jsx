@@ -81,7 +81,7 @@ export const FormContact = () => {
 
 </section>
 
-<section className=' col-span-1 rounded-lg border-2 border-[#00fcfc]/70 m-2 ml-12 sm:ml-0'>
+<section className=' col-span-1 rounded-lg border-2 border-[#00fcfc]/70 m-2'>
 
 <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-2 rounded-lg'>
       <label className='flex items-center p-2'><IoPersonOutline /> <p className='m-2'>{t('form.formName')}</p></label>
