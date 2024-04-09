@@ -15,7 +15,7 @@ export const Home = () => {
   return (
     <>
       <main className="w-[80%] h-auto flex justify-center items-center m-auto mt-20">
-        <section className=" flex justify-center items-center max-[90%]  h-[70%]  flex-col">
+        <section className=" flex justify-center items-center max-w-[90%]  h-[70%]  flex-col">
           <div className="w-full h-auto flex  ml-0  sm:ml-64">
             <article className="w-[60%] h-auto flex flex-col">
               <h1 className="text-xl sm:text-4xl mt-10 m-2 font-bold">
@@ -77,7 +77,7 @@ export const Home = () => {
 
             </ul>
           </nav>
-          <footer className="h-auto max-w-[70vw] mt-4">
+          <footer className="h-auto max-w-[70vw]">
             <div className="sm:my-12 flex justify-center items-center ">
               <Carrusel />
             </div>
