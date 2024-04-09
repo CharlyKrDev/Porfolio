@@ -14,7 +14,7 @@ export const Home = () => {
 
   return (
     <>
-      <main className="w-[80%] h-auto flex justify-center items-center m-auto mt-20">
+      <main className="w-[100%] h-auto flex justify-center items-center m-auto mt-20">
         <section className=" flex justify-center items-center max-w-[90%]  h-[70%]  flex-col">
           <div className="w-full h-auto flex  ml-0  sm:ml-64">
             <article className="w-[60%] h-auto flex flex-col">
