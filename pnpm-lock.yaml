@@ -17,6 +17,9 @@ dependencies:
   i18next-browser-languagedetector:
     specifier: ^7.2.1
     version: 7.2.1
+  pnpm:
+    specifier: ^8.15.6
+    version: 8.15.6
   postcss:
     specifier: ^8.4.38
     version: 8.4.38
@@ -2497,6 +2500,12 @@ packages:
       find-up: 3.0.0
       load-json-file: 5.3.0
     dev: true
+
+  /pnpm@8.15.6:
+    resolution: {integrity: sha512-d7iem+d6Kwatj0A6Gcrl4il29hAj+YrTI9XDAZSVjrwC7gpq5dE+5FT2E05OjK8poF8LGg4dKxe8prah8RWfhg==}
+    engines: {node: '>=16.14'}
+    hasBin: true
+    dev: false
 
   /possible-typed-array-names@1.0.0:
     resolution: {integrity: sha512-d7Uw+eZoloe0EHDIYoe+bQ5WXnGMOpmiZFTuMWCwpjzzkL2nTjcKiAk4hh8TjnGye2TwWOk3UXucZ+3rbmBa8Q==}
