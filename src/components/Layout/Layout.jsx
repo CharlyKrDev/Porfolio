@@ -16,7 +16,7 @@ export const Layout = () => {
   const {t} = useTranslation()
 
   const h2Layout =
-    "sm:text-4xl text-3xl text-left flex gap-2 items-center mb-20 ml-6 sm:ml-0";
+    "sm:text-4xl text-3xl text-left flex gap-2 items-center mb-20 ml-0";
   return (
     <main className="grid grid-cols-10 ">
       <nav className=" w-[50px] sm:w-[120px] z-10 h-auto row-span-6  ">
@@ -52,7 +52,7 @@ export const Layout = () => {
         <AboutMe />
       </section>
       <section
-        className="h-auto ml-12 sm:ml-40  col-star-2 col-span-9 mt-8 m-auto w-[80%]"
+        className="h-auto ml-12 sm:ml-40 col-star-2 col-span-9 mt-8 m-auto w-[80%]"
         id="contact"
       >
         <h2 className={`${h2Layout}`}>

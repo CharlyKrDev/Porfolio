@@ -37,7 +37,7 @@ export const NavBar = () => {
         onClick={() => {
           window.scroll(0, 0);
         }}
-        className="h-auto size-50 m-auto opacity-90 cursor-pointer mt-10"
+        className="h-auto size-50 m-auto opacity-90 cursor-pointer"
         src={Logo}
         alt="logo"
       />
