@@ -50,35 +50,35 @@ export const NavBar = () => {
               window.scroll(0, 0);
             }}
           >
-            <a className="" href="#Home">
+            <a  href="#home" >
               <i className="navIcon ">
                 <IoHomeOutline />
               </i>
             </a>
           </li>
           <li className={iconsStyle} title={t("navBar.projects")}>
-            <a className="" href="#Projects">
+            <a  href="#Projects">
               <i className="navIcon ">
                 <FaCode />
               </i>
             </a>
           </li>
           <li className={iconsStyle} title={t("navBar.certification")}>
-            <a className="" href="#certification">
+            <a  href="#certification">
               <i className="navIcon ">
                 <PiStudentBold />
               </i>
             </a>
           </li>
           <li className={iconsStyle} title={t("navBar.aboutme")}>
-            <a className="" href="#aboutMe">
+            <a  href="#aboutMe">
               <i className="navIcon ">
                 <BsPersonCircle />
               </i>
             </a>
           </li>
           <li className={iconsStyle} title={t("navBar.contact")}>
-            <a className="" href="#contact">
+            <a  href="#contact">
               <i className="m-auto ">
                 <IoMailOpenOutline />
               </i>
@@ -87,7 +87,7 @@ export const NavBar = () => {
         </ul>
       </main>
       <footer className="flex justify-center">
-        <ul className="">
+        <ul >
           <li className={`relative`}>
             <a
               onMouseEnter={toggleMenu}
@@ -102,7 +102,7 @@ export const NavBar = () => {
                 showMenu ? "" : "hidden"
               } ml-6`}
             >
-              <li onMouseLeave={closeMenu} onClick={() => changeLanguage("en")}>
+              <li onClick={() => changeLanguage("it")} onMouseEnter={toggleMenu}>
                 <button
                   className={flagsStyle}
                   role="img"
@@ -112,7 +112,7 @@ export const NavBar = () => {
                   🇺🇸
                 </button>
               </li>
-              <li onClick={() => changeLanguage("es")}>
+              <li onClick={() => changeLanguage("it")} onMouseEnter={toggleMenu}>
                 <button
                   className={flagsStyle}
                   role="img"
@@ -122,7 +122,7 @@ export const NavBar = () => {
                   &#x1F1EA;&#x1F1F8;
                 </button>
               </li>
-              <li onClick={() => changeLanguage("it")}>
+              <li onClick={() => changeLanguage("it")} onMouseEnter={toggleMenu}>
                 <button
                   className={flagsStyle}
                   role="img"
