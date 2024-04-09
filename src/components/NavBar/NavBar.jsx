@@ -102,10 +102,11 @@ export const NavBar = () => {
                 showMenu ? "" : "hidden"
               } ml-6`}
             >
-              <li onMouseLeave={closeMenu}>
+              <li onMouseLeave={closeMenu}
+                                  onClick={() => changeLanguage("en")}
+                                  >
                 <a href="#" className="flags">
                   <button
-                    onClick={() => changeLanguage("en")}
                     role="img"
                     aria-label="English"
                     title={t("navBar.english")}
@@ -114,10 +115,10 @@ export const NavBar = () => {
                   </button>
                 </a>
               </li>
-              <li>
+              <li                     onClick={() => changeLanguage("es")}
+>
                 <a href="#" className="flags">
                   <button
-                    onClick={() => changeLanguage("es")}
                     role="img"
                     aria-label="Spanish"
                     title={t("navBar.spanish")}
@@ -126,10 +127,10 @@ export const NavBar = () => {
                   </button>
                 </a>
               </li>
-              <li>
+              <li                     onClick={() => changeLanguage("it")}
+>
                 <a href="#" className="flags">
                   <button
-                    onClick={() => changeLanguage("it")}
                     role="img"
                     aria-label="Italian"
                     title={t("navBar.italian")}

@@ -36,14 +36,14 @@ export const Home = () => {
             </article>
             <div className="w-[40%]  h-[70%] max-h-[30vh]">
               <img
-                className="mt-14 aspect-square flex m-auto rounded-full border-2 border-[#00fcfc]/70 opacity-95 sm:h-auto h-20 max-h-60 ml-8"
+                className="mt-14 aspect-square flex m-auto rounded-full border-2 border-[#00fcfc]/70 opacity-95 sm:h-auto h-20 max-h-60 ml-4"
                 src={FotoPerfil}
                 alt="FotoPerfil"
               />
             </div>
           </div>
           <nav className="w-[95%] mr-4 ">
-            <ul className="flex gap-2 sm:gap-8 text-[12px] sm:text-[14px]">
+            <ul className="flex gap-2 sm:gap-8 text-[12px] sm:text-[14px] flex-wrap">
             <NavLink to={'https://www.linkedin.com/in/carlos-alberto-kaar/'} target="blank">
             <li>
                 <button className="socialIcon flex justify-center items-center gap-2">

@@ -16,7 +16,7 @@ export const Layout = () => {
   const {t} = useTranslation()
 
   const h2Layout =
-    "sm:text-4xl text-3xl text-left flex gap-2 items-center mb-20 ml-2";
+    "sm:text-4xl text-3xl text-left flex gap-2 items-center mb-20";
   return (
     <main className="grid grid-cols-10">
       <nav className=" w-[100px] sm:w-[120px] z-10 h-auto row-span-6  ">
@@ -27,19 +27,14 @@ export const Layout = () => {
       </section>
       <section
         id="Projects"
-        className="min-h-screen ml-12  col-star-2 col-span-9 p-2 m-auto w-[90%] "
-      >
-        {" "}
-        <h2 className={h2Layout}>
+        className="min-h-screen ml-12  col-star-2 col-span-9 p-2 m-auto w-[90%]">{" "}<h2 className={`${h2Layout} ml-2`}>
           {" "}
           <FaCode /> {t('layout.projects')}
         </h2>
         <Projects />
       </section>
-      <section id="certification" className="min-h-screen ml-12  col-star-2 col-span-9 m-auto w-[90%] ">
-        <h2 className={h2Layout}>
-          {" "}
-          <PiStudentBold /> {t('layout.certification')}
+      <section id="certification" className="min-h-screen col-star-2 col-span-9 m-auto w-[90%] ">
+        <h2 className={`${h2Layout} ml-14 sm:ml-0`}><i className="sm:text-4xl text-3xl"><PiStudentBold /></i> {t('layout.certification')}
         </h2>
 
         <Certification />
@@ -48,7 +43,7 @@ export const Layout = () => {
         id="aboutMe"
         className="min-h-screen ml-12 col-star-2 col-span-9 m-auto w-[90%] mb-8"
       >
-        <h2 className={h2Layout}>
+        <h2 className={`${h2Layout} ml-5 sm:ml-2`}>
           {" "}
           <BsPersonCircle />
           {t('layout.aboutme')}
@@ -56,10 +51,10 @@ export const Layout = () => {
         <AboutMe />
       </section>
       <section
-        className="h-screen pb-2 ml-12  col-star-2 col-span-9 flex flex-col justify-center m-auto w-[90%] "
+        className="h-auto pb-2 sm:ml-12 ml-16  col-star-2 col-span-9 flex flex-col justify-center m-auto w-[80%] sm:w-[90%] "
         id="contact"
       >
-        <h2 className={h2Layout}>
+        <h2 className={`${h2Layout} sm:ml-2`}>
           <IoMailOpenOutline />
           {t('layout.contact')}
         </h2>
