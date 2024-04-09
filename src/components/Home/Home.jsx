@@ -14,10 +14,10 @@ export const Home = () => {
 
   return (
     <>
-      <main className="w-[80%] h-auto flex justify-center items-center m-auto mt-20 ">
+      <main className="w-[80%] h-auto flex justify-center items-center m-auto mt-20">
         <section className=" flex justify-center items-center max-[90%]  h-[70%]  flex-col">
-          <div className="w-full  h-auto flex ml-4">
-            <article className="w-[60%] ml-2 h-auto flex flex-col">
+          <div className="w-full h-auto flex  ml-0  sm:ml-64">
+            <article className="w-[60%] h-auto flex flex-col">
               <h1 className="text-xl sm:text-4xl mt-10 m-2 font-bold">
               {t('home.h1')} {" "} 
                 <span className="text-[#4661f8]/70">
@@ -42,7 +42,7 @@ export const Home = () => {
               />
             </div>
           </div>
-          <nav className="w-[95%] sm:mr-4 ml-10 ">
+          <nav className="w-[95%] ml-4  sm:ml-64">
             <ul className="flex gap-2 sm:gap-8 text-[10px] sm:text-[14px] flex-wrap">
             <NavLink to={'https://www.linkedin.com/in/carlos-alberto-kaar/'} target="blank">
             <li>
