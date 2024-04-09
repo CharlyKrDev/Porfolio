@@ -18,13 +18,13 @@ export const Home = () => {
         <section className=" flex justify-center items-center max-[90%]  h-[70%]  flex-col">
           <div className="w-full  h-auto flex ml-4">
             <article className="w-[60%] ml-2 h-auto flex flex-col">
-              <h1 className="text-4xl mt-10 m-2 font-bold">
+              <h1 className="text-xl sm:text-4xl mt-10 m-2 font-bold">
               {t('home.h1')} {" "} 
                 <span className="text-[#4661f8]/70">
                   Carlos Alberto Kaar
                 </span>
               </h1>
-              <p className="text-wrap mb-20 text-2xl m-2 mt-10">
+              <p className="text-wrap mb-20 text-sm sm:text-2xl m-2 mt-10">
                 <strong className="text-[#33fd2c]/70">
                 {t('home.pStrong')} <br />
                 </strong>
@@ -43,7 +43,7 @@ export const Home = () => {
             </div>
           </div>
           <nav className="w-[95%] mr-4 ">
-            <ul className="flex gap-2 sm:gap-8 text-[12px] sm:text-[14px] flex-wrap">
+            <ul className="flex gap-2 sm:gap-8 text-[10px] sm:text-[14px] flex-wrap">
             <NavLink to={'https://www.linkedin.com/in/carlos-alberto-kaar/'} target="blank">
             <li>
                 <button className="socialIcon flex justify-center items-center gap-2">
@@ -77,8 +77,8 @@ export const Home = () => {
 
             </ul>
           </nav>
-          <footer className="h-auto max-w-[60vw] mt-4">
-            <div className="my-12 flex justify-center items-center ">
+          <footer className="h-auto max-w-[70vw] mt-4">
+            <div className="sm:my-12 flex justify-center items-center ">
               <Carrusel />
             </div>
           </footer>
