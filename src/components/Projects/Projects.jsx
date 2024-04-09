@@ -21,11 +21,11 @@ export const Projects = () => {
               index
             )}  `}
           >
-            <div className="h-[80%] flex flex-col p-2 justify-center">
+            <div className="h-auto flex flex-col p-2 justify-center">
               {" "}
               <NavLink to={project.vercel} target="_blank">
                 <img
-                  className="max-h-80 min-h-20 max-w-90 rounded-2xl border-2 border-green-900"
+                  className="h-[120px] sm:h-auto min-h-20 max-w-90 rounded-2xl border-2 border-green-900"
                   src={project.img}
                   alt={project.title}
                 />
