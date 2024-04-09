@@ -8,7 +8,7 @@ export const Carrusel = () => {
 
   return (
     <>
-      <main className="container w-[60%] items-center mt-2 text-white">
+      <main className="container w-[100%] sm:w-[60%] items-center mt-2 text-white">
         <section className="w-full overflow-hidden">
           <div className="flex whitespace-nowrap animateScroll mt-32">
             {logos.map((logo, index) => (

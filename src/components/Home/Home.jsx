@@ -42,8 +42,8 @@ export const Home = () => {
               />
             </div>
           </div>
-          <nav className="w-[95%] mr-4 ">
-            <ul className="flex gap-2 sm:gap-8 text-[12px] sm:text-[14px] flex-wrap">
+          <nav className="w-[95%] sm:mr-4 ml-10 ">
+            <ul className="flex gap-2 sm:gap-8 text-[10px] sm:text-[14px] flex-wrap">
             <NavLink to={'https://www.linkedin.com/in/carlos-alberto-kaar/'} target="blank">
             <li>
                 <button className="socialIcon flex justify-center items-center gap-2">
