@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../../styles/NavBar.css";
+// import "../../styles/NavBar.css";
 import Logo from "../../assets/img/layout/LogoWeb2.png";
 import {
   IoHomeOutline,
@@ -12,14 +12,14 @@ import { BsPersonCircle } from "react-icons/bs";
 import { useTranslation } from "react-i18next";
 
 export const NavBar = () => {
+  const iconsStyle = `m-auto text-2xl hover:text-[#00fcfc] transition-all active:scale-90 ease-in-out duration-2`;
+  const flagsStyle = `px-[10px] py-[8px] transition-all ease-in-out duration-2 active:scale-90 hover:text-white hover:scale-200`;
   const [showMenu, setShowMenu] = useState(false);
   const { t } = useTranslation();
   const { i18n } = useTranslation();
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
   };
- 
-
 
   const toggleMenu = () => {
     setShowMenu(true);
@@ -29,8 +29,10 @@ export const NavBar = () => {
   };
 
   return (
-    <nav               onMouseLeave={closeMenu}
-    className="fixed top-0 left-0 h-[100%] w-[100px] sm:w-[120px] bg-[#24242466] transition-all duration-300 borderRight">
+    <nav
+      onMouseLeave={closeMenu}
+      className="fixed top-0 left-0 h-[100%] w-[50px] sm:w-[120px] bg-[#24242466] transition-all duration-300 border-r-2 border-[#00fcfc72]"
+    >
       <img
         onClick={() => {
           window.scroll(0, 0);
@@ -39,105 +41,96 @@ export const NavBar = () => {
         src={Logo}
         alt="logo"
       />
-      <main className="h-[47%]">
-        <ul className="gap-4">
+      <main className="h-[47%] w-[100%] mb-20">
+        <ul className="flex flex-col justify-center gap-8  w-[100%] mt-8">
           <li
-            className="listNav"
+            className={iconsStyle}
             title={t("navBar.home")}
             onClick={() => {
               window.scroll(0, 0);
             }}
           >
-            <a className="groupLink" href="#Home">
-              <i className="navIcon mr-10">
+            <a className="" href="#Home">
+              <i className="navIcon ">
                 <IoHomeOutline />
               </i>
             </a>
           </li>
-          <li className="listNav outline-0" title={t("navBar.projects")}>
-            <a className="groupLink" href="#Projects">
-              <i className="navIcon mr-10" >
+          <li className={iconsStyle} title={t("navBar.projects")}>
+            <a className="" href="#Projects">
+              <i className="navIcon ">
                 <FaCode />
               </i>
             </a>
           </li>
-          <li className="listNav outline-0" title={t("navBar.certification")}>
-            <a className="groupLink"  href="#certification">
-              <i className="navIcon mr-10">
+          <li className={iconsStyle} title={t("navBar.certification")}>
+            <a className="" href="#certification">
+              <i className="navIcon ">
                 <PiStudentBold />
               </i>
             </a>
           </li>
-          <li className="listNav outline-0" title={t("navBar.aboutme")}>
-            <a className="groupLink"  href="#aboutMe">
-              <i className="navIcon mr-10">
+          <li className={iconsStyle} title={t("navBar.aboutme")}>
+            <a className="" href="#aboutMe">
+              <i className="navIcon ">
                 <BsPersonCircle />
               </i>
             </a>
           </li>
-          <li className="listNav outline-0" title={t("navBar.contact")}>
-            <a className="groupLink"  href="#contact">
-              <i className="navIcon mr-10">
+          <li className={iconsStyle} title={t("navBar.contact")}>
+            <a className="" href="#contact">
+              <i className="m-auto ">
                 <IoMailOpenOutline />
               </i>
             </a>
           </li>
         </ul>
       </main>
-      <footer>
-        <ul className="pt-20">
-          <li className="listNav relative">
-            <a className="groupLink">
-              <i
-                onMouseEnter={toggleMenu}
-                className="navIcon mr-10  cursor-pointer"
-                title={t("navBar.language")}
-              >
-                <IoSettingsOutline />
-              </i>
+      <footer className="flex justify-center">
+        <ul className="">
+          <li className={`relative`}>
+            <a
+              onMouseEnter={toggleMenu}
+              className={`cursor-pointer ${iconsStyle}`}
+              title={t("navBar.language")}
+            >
+              <IoSettingsOutline />
             </a>
             <ul
               onMouseLeave={closeMenu}
-              className={`absolute bottom-full mb-4 bg-[black]  rounded-md ${
+              className={`absolute bottom-full mb-4 bg-[black]/70 rounded-md ${
                 showMenu ? "" : "hidden"
               } ml-6`}
             >
-              <li onMouseLeave={closeMenu}
-                                  onClick={() => changeLanguage("en")}
-                                  >
-                <a href="#" className="flags">
-                  <button
-                    role="img"
-                    aria-label="English"
-                    title={t("navBar.english")}
-                  >
-                    🇺🇸
-                  </button>
-                </a>
+              <li onMouseLeave={closeMenu} onClick={() => changeLanguage("en")}>
+                <button
+                  className={flagsStyle}
+                  role="img"
+                  aria-label="English"
+                  title={t("navBar.english")}
+                >
+                  🇺🇸
+                </button>
               </li>
-              <li                     onClick={() => changeLanguage("es")}
->
-                <a href="#" className="flags">
-                  <button
-                    role="img"
-                    aria-label="Spanish"
-                    title={t("navBar.spanish")}
-                  >
-                    &#x1F1EA;&#x1F1F8;
-                  </button>
-                </a>
+              <li onClick={() => changeLanguage("es")}>
+                <button
+                  className={flagsStyle}
+                  role="img"
+                  aria-label="Spanish"
+                  title={t("navBar.spanish")}
+                >
+                  &#x1F1EA;&#x1F1F8;
+                </button>
               </li>
-              <li                     onClick={() => changeLanguage("it")}
->
-                <a href="#" className="flags">
-                  <button
-                    role="img"
-                    aria-label="Italian"
-                    title={t("navBar.italian")}
-                  >
-                    &#x1F1EE;&#x1F1F9;
-                  </button>
-                </a>
+              <li onClick={() => changeLanguage("it")}>
+                <button
+                  className={flagsStyle}
+                  role="img"
+                  aria-label="Italian"
+                  title={t("navBar.italian")}
+                >
+                  &#x1F1EE;&#x1F1F9;
+                </button>
               </li>
             </ul>
           </li>

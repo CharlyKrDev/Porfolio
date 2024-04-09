@@ -7,9 +7,10 @@ export const Certification = () => {
     const certificados = [...certificadoIt];
 
   return (
-    <main  className="w-[100%] h-auto p-2 flex flex-col">
-        {certificados.map((certificado, id) =>(<CertificationLine certificado ={certificado} key={id}/>))}
+    <>
+            {certificados.map((certificado, id) =>(<CertificationLine certificado ={certificado} key={id}/>))}
 
-        </main>
+    </>
+
     )
 }

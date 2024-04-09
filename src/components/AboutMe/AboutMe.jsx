@@ -63,13 +63,13 @@ export const AboutMe = () => {
               <p>{t("skills.skillsP2")}</p>{" "}
             </li>
             <li className={liAboutMe}>
-              <span className={`${spanAboutMe} ml-2`}>&#x23F3;</span>{" "}
+              <span className={`${spanAboutMe}`}>&#x23F3;</span>{" "}
               <p>{t("skills.skillsP3")}</p>
             </li>
             <li className={liAboutMe}>
               {" "}
               <span className={`${spanAboutMe}`}>&#x1F91D;</span>{" "}
-              <p className="-ml-1">{t("skills.skillsP4")}</p>{" "}
+              <p className="">{t("skills.skillsP4")}</p>{" "}
             </li>
             <li className={liAboutMe}></li>
           </ul>
@@ -79,7 +79,7 @@ export const AboutMe = () => {
           <ul className={ulAboutMe}>
             <li className={liAboutMe}>
               <span className={spanAboutMe}>&#x2328;</span>
-              <p className="ml-2">{t("objectives.objP1")}</p>
+              <p className=''>{t("objectives.objP1")}</p>
             </li>
             <li className={liAboutMe}>
               <span className={spanAboutMe}>&#x2705;</span>
@@ -87,7 +87,7 @@ export const AboutMe = () => {
 
             </li>
             <li className={liAboutMe}>
-              <span className="text-5xl">&#x1F4A1;</span>
+              <span className="text-4xl">&#x1F4A1;</span>
               <p>{t("objectives.objP3")}</p>
             </li>
             <li className={liAboutMe}>
