@@ -12,8 +12,10 @@ export const Projects = () => {
   return (
     <main className="sm:w-[90%] w-[100%] min-h-screen p-4  flex justify-center items-center text-white/70">
       <section className="h-[100%] grid grid-cols-1 sm:grid-cols-8 gap-y-8 gap-x-3 w-[100%] p-4">
-        {projectsCopy.map((project, index) => (
-          <section
+        {projectsCopy.map((project, index) => {
+          if(project.img !==''){
+            return(
+            <section
             key={index}
             className={`${projectClass} ${getColSpan(
               index
@@ -31,7 +33,7 @@ export const Projects = () => {
             </div>
             <div className=" flex flex-col justify-center items-center">
               <h2 className="max-w-[90%] min-w-[50%]  sm:text-md text-sm">{project.title}</h2>
-              <p className="max-w-[90%] min-w-[50%]">{project.description}</p>
+              {/* <p className="max-w-[90%] min-w-[50%]">{project.description}</p> */}
               <div className="flex gap-2 mt-3 flex-wrap justify-center">
                 <NavLink to={project.github} target="_blank">
                   <button className={projectsButton}>
@@ -57,8 +59,9 @@ export const Projects = () => {
                 ))}
               </p>
             </div>
-          </section>
-        ))}
+          </section>)
+          }
+        })}
       </section>
     </main>
   );
