@@ -102,7 +102,7 @@ export const NavBar = () => {
                 showMenu ? "" : "hidden"
               } ml-6`}
             >
-              <li onClick={() => { changeLanguage("it"); toggleMenu(); }}>
+              <li onClick={() => { changeLanguage("en"); toggleMenu(); }}>
                 <button
                   className={flagsStyle}
                   role="img"
@@ -112,7 +112,7 @@ export const NavBar = () => {
                   🇺🇸
                 </button>
               </li>
-              <li onClick={() => { changeLanguage("it"); toggleMenu(); }}>
+              <li onClick={() => { changeLanguage("es"); toggleMenu(); }}>
                 <button
                   className={flagsStyle}
                   role="img"
