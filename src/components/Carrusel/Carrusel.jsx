@@ -10,7 +10,7 @@ export const Carrusel = () => {
     <>
       <main className="container  w-[90%] sm:w-[60%] items-center mt-2 text-white">
         <section className="w-full overflow-hidden">
-          <div className="flex whitespace-nowrap animateScroll mt-32">
+          <div className="flex whitespace-nowrap animateScroll mt-10 sm:mt-32">
             {logos.map((logo, index) => (
               <CardCarrusel logo={logo} key={index} />
             ))}

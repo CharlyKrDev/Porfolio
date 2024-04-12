@@ -14,7 +14,7 @@ export const Home = () => {
 
   return (
     <>
-      <main className="w-[100%] h-auto flex justify-center items-center m-auto mt-20">
+      <main className="w-[100%] h-auto flex justify-center items-center m-auto mt-10 sm:mt-20">
         <section className=" flex justify-center items-center max-w-[90%]  h-[70%]  flex-col">
           <div className="w-full h-auto flex  ml-0  sm:ml-64">
             <article className="w-[60%] h-auto flex flex-col">
@@ -24,7 +24,7 @@ export const Home = () => {
                   Carlos Alberto Kaar
                 </span>
               </h1>
-              <p className="text-wrap mb-20 text-sm sm:text-2xl m-2 mt-10">
+              <p className="text-wrap mb:4 sm:mb-20 text-sm sm:text-2xl m-2 mt-10">
                 <strong className="text-[#33fd2c]/70">
                 {t('home.pStrong')} <br />
                 </strong>
@@ -42,40 +42,40 @@ export const Home = () => {
               />
             </div>
           </div>
-          <nav className="w-[95%] ml-4  sm:ml-64">
-            <ul className="flex gap-2 sm:gap-8 text-[10px] sm:text-[14px] flex-wrap">
+          <nav className="w-[95%] sm:ml-64">
+            <section className="flex gap-2 sm:gap-8 text-[10px] sm:text-[14px] flex-wrap">
             <NavLink to={'https://www.linkedin.com/in/carlos-alberto-kaar/'} target="blank">
-            <li>
+            <div>
                 <button className="socialIcon flex justify-center items-center gap-2">
                   <FaLinkedin />
                   Linkedin
                 </button>
-              </li>
+              </div>
             </NavLink>
 
         <NavLink to={'https://github.com/CharlyKrDev'} target="blank">
 
-        <li>
+        <div>
                 <button className="socialIcon flex justify-center items-center gap-2">
                   {" "}
                   <FaGithub />
                   GitHub
                 </button>
-              </li>
+              </div>
 
         </NavLink>
 
         
-        <li>
+        <div>
           <a className="socialIcon flex justify-center items-center gap-2" href={CV} download="CV_Carlos_Kaar_ES.pdf" target="_blank">
                   <IoDocumentTextOutline />
                   Curriculum
           </a>
-        </li>
+        </div>
           
 
 
-            </ul>
+            </section>
           </nav>
           <footer className="h-auto max-w-[70vw]">
             <div className="sm:my-12 flex justify-center items-center ">
