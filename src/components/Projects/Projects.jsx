@@ -10,7 +10,7 @@ export const Projects = () => {
   const projectsButton =
     "min-w-20 flex items-center gap-2 border-[1px] p-1 px-2 rounded-full text-xs border-green-900 hover:bg-green-50 hover:text-black font-semibold active:scale-[90%] transition-all duration-300 easy-in-out";
   return (
-    <main className="sm:w-[90%] w-[100%] min-h-screen p-4  flex justify-center items-center text-white/70">
+    <main className="sm:w-[100%] w-[100%] min-h-screen p-4  flex justify-center items-center text-white/70">
       <section className="h-[100%] grid grid-cols-1 sm:grid-cols-8 gap-y-8 gap-x-3 w-[100%] p-4">
         {projectsCopy.map((project, index) => {
           if(project.img !==''){
@@ -21,11 +21,11 @@ export const Projects = () => {
               index
             )}  `}
           >
-            <div className="h-auto flex flex-col p-2 justify-center">
+            <div className="h-auto flex flex-col p-2 justify-center m-auto">
               {" "}
               <NavLink to={project.vercel} target="_blank">
                 <img
-                  className="h-[120px] sm:h-auto min-h-20 max-w-90 rounded-2xl border-2 border-green-900"
+                  className="h-[20vh] sm:h-auto min-h-20 max-w-90 rounded-2xl border-2 border-green-900"
                   src={project.img}
                   alt={project.title}
                 />

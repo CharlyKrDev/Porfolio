@@ -16,7 +16,7 @@ export const Layout = () => {
   const {t} = useTranslation()
 
   const h2Layout =
-    "sm:text-4xl text-3xl text-left flex gap-2 items-center mb-20 ml-0";
+    "sm:text-4xl text-xl text-left flex gap-2 items-center mb-20 ml-5 sm:ml-0 mt-4";
   return (
     <main className="grid grid-cols-10 ">
       <nav className=" w-[50px] sm:w-[120px] z-10 h-auto row-span-6  ">
@@ -27,7 +27,7 @@ export const Layout = () => {
       </section>
       <section
         id="Projects"
-        className="min-h-screen ml-12 sm:ml-40  col-star-2 col-span-9 mt-8 m-auto w-[80%]">{" "}<h2 className={`${h2Layout}`}>
+        className="min-h-screen ml-12 sm:ml-40  col-star-2 col-span-9 sm:mt-8 mt-0 m-auto w-[80%]">{" "}<h2 className={`${h2Layout}`}>
           {" "}
           <FaCode /> {t('layout.projects')}
         </h2>
@@ -35,7 +35,7 @@ export const Layout = () => {
       </section>
       <section id="certification"         className="min-h-screen ml-12 sm:ml-40  col-star-2 col-span-9 mt-8 m-auto w-[80%]"
 >
-        <h2 className={`${h2Layout}`}><i className="sm:text-4xl text-3xl"><PiStudentBold /></i> {t('layout.certification')}
+        <h2 className={`${h2Layout}`}><i className="sm:text-4xl text-2xl"><PiStudentBold /></i> {t('layout.certification')}
         </h2>
 
         <Certification />

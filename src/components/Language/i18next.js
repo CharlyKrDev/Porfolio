@@ -88,7 +88,7 @@ i18n
           certification: {
             0: {
               title: "BackEnd",
-              desc: "Carrera",
+              desc: "Actualmente estoy realizando un curso de backend no relacional con proyecto de e-commerce que abarca Node.js, MongoDB y Express incluye la creación de una API RESTful con operaciones CRUD, autenticación de usuarios, validación de datos, seguridad, pruebas, despliegue en producción y optimización de rendimiento.",
             },
             1: {
               title: "Desarrollador Front-end React",
@@ -209,7 +209,7 @@ i18n
           certification: {
             0: {
               title: "BackEnd",
-              desc: "Course",
+              desc: "I am currently taking a non-relational backend course with an e-commerce project that covers Node.js, MongoDB, and Express, including the creation of a RESTful API with CRUD operations, user authentication, data validation, security, testing, deployment to production, and performance optimization.",
             },
             1: {
               title: "Front-end React Developer",
@@ -328,7 +328,7 @@ i18n
           certification: {
             0: {
               title: "BackEnd",
-              desc: "Corso",
+              desc: "Attualmente sto seguendo un corso di backend non relazionale con un progetto di e-commerce che include Node.js, MongoDB e Express, e che prevede la creazione di un'API RESTful con operazioni CRUD, autenticazione degli utenti, convalida dei dati, sicurezza, testing, distribuzione in produzione e ottimizzazione delle prestazioni.",
             },
             1: {
               title: "Sviluppatore Front-end React",

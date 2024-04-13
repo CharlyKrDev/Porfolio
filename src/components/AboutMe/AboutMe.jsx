@@ -30,7 +30,7 @@ export const AboutMe = () => {
               <p>{t("aboutme.cupmP3")}</p>
             </li>
             <li className={liAboutMe}>
-              <span className={`${spanAboutMe} ml-2`}>&#x1F355;</span>
+              <span className={`${spanAboutMe}`}>&#x1F355;</span>
               <p>{t("aboutme.cupmP4")} </p>
             </li>
             <li className={liAboutMe}></li>
