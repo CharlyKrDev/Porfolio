@@ -57,11 +57,11 @@ export const FormContact = () => {
     <ul className='flex flex-col gap-2'>
         <li>
         <NavLink to={'mailto:charlykrdev@gmail.com'}>
-        <button className={iconsStyle}><img className='size-5' src={GmailIcon} alt="" />{t('form.formBtn1')}</button>
+        <button className={iconsStyle}><img className='size-5 aspect-auto' src={GmailIcon} alt="Gmail-Icons" />{t('form.formBtn1')}</button>
         </NavLink>
         </li>
         <li>
-          <h2 className='flex items-center  text-xl' href="">{t('form.formH2')}</h2>
+          <h2 className='flex items-center text-xl'>{t('form.formH2')}</h2>
         </li>
         <li>
         <NavLink to={'https://www.linkedin.com/in/carlos-alberto-kaar/'} target="blank">

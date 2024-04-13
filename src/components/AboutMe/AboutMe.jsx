@@ -18,11 +18,11 @@ export const AboutMe = () => {
           <h2 className={h2AboutMe}>{t("aboutme.cupmH2")}</h2>
           <ul className={ulAboutMe}>
             <li className={liAboutMe}>
-              <img className="size-8 m-2 opacity-70" src={Arg} alt="" />
+              <img className="size-8 m-2 opacity-70 aspect-auto" src={Arg} alt="Argentina-Flag" />
               <p> {t("aboutme.cupmP1")} </p>
             </li>
             <li className={liAboutMe}>
-              <img className="size-8 m-2 opacity-70" src={Ita} alt="" />
+              <img className="size-8 m-2 opacity-70 aspect-auto" src={Ita} alt="Italy-Flag" />
               <p> {t("aboutme.cupmP2")}</p>
             </li>
             <li className={liAboutMe}>
