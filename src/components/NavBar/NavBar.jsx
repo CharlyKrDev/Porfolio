@@ -89,13 +89,13 @@ export const NavBar = () => {
       <footer className="flex justify-center">
         <ul >
           <li className={`relative`}>
-            <a
+            <button
               onMouseEnter={toggleMenu}
               className={`cursor-pointer ${iconsStyle}`}
               title={t("navBar.language")}
             >
               <IoSettingsOutline />
-            </a>
+            </button>
             <ul
               onMouseLeave={closeMenu}
               className={`absolute bottom-full mb-4 bg-[black]/70 rounded-md ${
