@@ -20,7 +20,7 @@ export const Home = () => {
             <article className="w-[60%] h-auto flex flex-col">
               <h1 className="text-xl sm:text-4xl mt-10 m-2 font-bold">
               {t('home.h1')} {" "} 
-                <span className="text-[#4661f8]/70">
+                <span className="text-blue-500">
                   Carlos Alberto Kaar
                 </span>
               </h1>

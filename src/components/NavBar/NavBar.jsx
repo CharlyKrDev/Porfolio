@@ -50,21 +50,21 @@ export const NavBar = () => {
               window.scroll(0, 0);
             }}
           >
-            <a  href="#home" >
+            <a  href="#home" aria-label="Contáctanos" role="button" >
               <i className="navIcon ">
                 <IoHomeOutline />
               </i>
             </a>
           </li>
           <li className={iconsStyle} title={t("navBar.projects")}>
-            <a  href="#Projects">
+            <a  href="#Projects" aria-label="Contáctanos" role="button">
               <i className="navIcon ">
                 <FaCode />
               </i>
             </a>
           </li>
           <li className={iconsStyle} title={t("navBar.certification")}>
-            <a  href="#certification">
+            <a  href="#certification" aria-label="Contáctanos" role="button">
               <i className="navIcon ">
                 <PiStudentBold />
               </i>
@@ -78,7 +78,7 @@ export const NavBar = () => {
             </a>
           </li>
           <li className={iconsStyle} title={t("navBar.contact")}>
-            <a  href="#contact">
+            <a  href="#contact" aria-label="Contáctanos" role="button">
               <i className="m-auto ">
                 <IoMailOpenOutline />
               </i>
