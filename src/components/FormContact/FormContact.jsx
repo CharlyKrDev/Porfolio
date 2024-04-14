@@ -57,7 +57,7 @@ export const FormContact = () => {
     <ul className='flex flex-col gap-2'>
         <li>
         <NavLink to={'mailto:charlykrdev@gmail.com'}>
-        <button className={iconsStyle}><img className='size-5 aspect-auto' src={GmailIcon} alt="Gmail-Icons" />{t('form.formBtn1')}</button>
+        <button className={iconsStyle}><img className='aspect-auto' src={GmailIcon} alt="Gmail-Icons" />{t('form.formBtn1')}</button>
         </NavLink>
         </li>
         <li>

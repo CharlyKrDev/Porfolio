@@ -22,7 +22,7 @@ export const AboutMe = () => {
               <p> {t("aboutme.cupmP1")} </p>
             </li>
             <li className={liAboutMe}>
-              <img className="size-8 m-2 opacity-70 aspect-auto" src={Ita} alt="Italy-Flag" />
+              <img className="aspect-auto m-2 opacity-70" src={Ita} alt="Italy-Flag" />
               <p> {t("aboutme.cupmP2")}</p>
             </li>
             <li className={liAboutMe}>
