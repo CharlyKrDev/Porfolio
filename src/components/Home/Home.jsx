@@ -77,11 +77,11 @@ export const Home = () => {
 
             </section>
           </nav>
-          <footer className="h-auto max-w-[70vw]">
+          <section className="h-auto max-w-[70vw]">
             <div className="sm:my-12 flex justify-center items-center ">
               <Carrusel />
             </div>
-          </footer>
+          </section>
         </section>
       </main>
     </>

@@ -31,7 +31,7 @@ export const NavBar = () => {
   return (
     <nav
       onMouseLeave={closeMenu}
-      className="fixed top-0 left-0 h-[100%] w-[50px] sm:w-[120px] bg-[#24242466] transition-all duration-300 border-r-2 border-[#00fcfc72]"
+      className="fixed top-0 left-0 h-[100%] w-[50px] sm:w-[120px] bg-[#242424] transition-all duration-300 border-r-2 border-[#00fcfc72]"
     >
       <img
         onClick={() => {
