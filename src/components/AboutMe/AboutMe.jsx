@@ -9,7 +9,7 @@ export const AboutMe = () => {
     "flex  flex-col gap-2 border-2 border-[#33fd2c]/50 h-[100%] p-2 bg-[#ffffff0c] rounded-lg";
   const h2AboutMe = "text-xl text-[#b458eeb2] font-bold ml-2 my-4 min-h-[70px]";
   const ulAboutMe = "flex flex-col gap-4";
-  const liAboutMe = "flex gap-2 items-center";
+  const liAboutMe = "flex gap-2 items-center sm:text-lg text-sm ";
   const spanAboutMe = "text-4xl";
   return (
     <>

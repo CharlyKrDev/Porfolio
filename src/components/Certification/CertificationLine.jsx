@@ -49,8 +49,8 @@ export const CertificationLine = ({ certificado, id }) => {
           src={`${certificado.img}`}
           alt={t(certificado.title)}
         />
-        <h3 className="my-2 text-2xl font-semibold vertical-timeline-element-title">{t(certificado.title)}</h3><span className={topClass}> <RiMedalLine />TOP 10</span>
-        <h4 className="vertical-timeline-element-subtitle">{`${certificado.institution}`}</h4>
+        <h3 className="my-2  text-xl sm:text-2xl font-semibold vertical-timeline-element-title">{t(certificado.title)}</h3><span className={topClass}> <RiMedalLine />TOP 10</span>
+        <h4 className="vertical-timeline-element-subtitle text-lg sm:text-xl">{`${certificado.institution}`}</h4>
         <p>
         {t(certificado.description)}
         </p>
