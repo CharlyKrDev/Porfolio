@@ -71,7 +71,7 @@ export const NavBar = () => {
             </a>
           </li>
           <li className={iconsStyle} title={t("navBar.aboutme")}>
-            <a  href="#aboutMe">
+            <a  href="#aboutMe" aria-label="Contáctanos" role="button">
               <i className="navIcon ">
                 <BsPersonCircle />
               </i>
