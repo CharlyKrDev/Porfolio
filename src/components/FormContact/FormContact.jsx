@@ -90,7 +90,7 @@ export const FormContact = () => {
       <input type="email" name="userMail" className='m-2 text-black/90 font-semibold' placeholder="E-mail" required  />
       <label className='flex items-center p-2'><TbMessage /> <p className='ml-2'>{t('form.formMessage')}</p></label>
       <textarea className='min-h-[200px] mx-2 text-black/90 font-semibold'  name="message" placeholder={t('form.formMessagePlaceholder')} required  />
-      <input className=' bg-[#7FDBFF] border-2 border-[#7FDBFf] text-[#00000080] font-bold cursor-pointer min-w-[15%] px-2 m-auto my-4 active:scale-90 hover:bg-[#00fcfc] hover:scale-[1.05]  hover:border-[#00fcfc] rounded-lg transition-all ease-in-out duration-300 hover:text-black' type="submit" value={t('form.formBtn2')} />
+      <input className=' bg-[#7FDBFF] border-2 border-[#7FDBFf] text-[#000000] font-bold cursor-pointer min-w-[15%] px-2 m-auto my-4 active:scale-90 hover:bg-[#00fcfc] hover:scale-[1.05]  hover:border-[#00fcfc] rounded-lg transition-all ease-in-out duration-300 hover:text-black' type="submit" value={t('form.formBtn2')} />
     </form>
 </section>
 
