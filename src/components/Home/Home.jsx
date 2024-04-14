@@ -29,7 +29,7 @@ export const Home = () => {
                 {t('home.pStrong')} <br />
                 </strong>
                 {t('home.p')} <span>Front-End,</span> {t('home.p2')}<span>Back-End. </span>
-                <strong className="text-[#d38aff]/70">
+                <strong className="text-[#b458eef8]">
                 {t('home.pStrong2')}
                 </strong>
               </p>

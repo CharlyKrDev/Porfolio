@@ -7,7 +7,7 @@ export const AboutMe = () => {
 
   const sectionAboutMe =
     "flex  flex-col gap-2 border-2 border-[#33fd2c]/50 h-[100%] p-2 bg-[#ffffff0c] rounded-lg";
-  const h2AboutMe = "text-xl text-[#b458eeb2] font-bold ml-2 my-4 min-h-[70px]";
+  const h2AboutMe = "text-xl text-[#b458eef8] font-bold ml-2 my-4 min-h-[70px]";
   const ulAboutMe = "flex flex-col gap-4";
   const liAboutMe = "flex gap-2 items-center sm:text-lg text-sm ";
   const spanAboutMe = "text-4xl";
@@ -18,7 +18,7 @@ export const AboutMe = () => {
           <h2 className={h2AboutMe}>{t("aboutme.cupmH2")}</h2>
           <ul className={ulAboutMe}>
             <li className={liAboutMe}>
-              <img className="size-8 m-2 opacity-70 aspect-auto" src={Arg} alt="Argentina-Flag" />
+              <img className="size-8 m-2 opacity-70 aspect-auto " src={Arg} alt="Argentina-Flag" />
               <p> {t("aboutme.cupmP1")} </p>
             </li>
             <li className={liAboutMe}>

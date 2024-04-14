@@ -52,7 +52,7 @@ export const FormContact = () => {
   return (
 <main className='sm:w-[90%] w-[100%] h-auto min-h-[700px] gap-2 grid sm:grid-cols-2 grid-cols-1 justify-center items-center m-auto'>
 <section className='h-auto flex flex-col gap-4 p-2 text-wrap w-auto ml-2 m-auto'>
-    <h3 className='sm:text-2xl text-xl font-semibold text-[#7FDBFF]/70'>{t('form.formH3')} </h3> <span className='sm:text-4xl text-3xl text-[#7FDBFF]/70'><PiHandshake /></span>
+    <h3 className='sm:text-2xl text-xl font-semibold text-[#7FDBFF]/80'>{t('form.formH3')} </h3> <span className='sm:text-4xl text-3xl text-[#7FDBFF]/80'><PiHandshake /></span>
 
     <ul className='flex flex-col gap-2'>
         <li>
@@ -81,7 +81,7 @@ export const FormContact = () => {
 
 </section>
 
-<section className=' col-span-1 rounded-lg border-2 border-[#00fcfc]/70 m-2'>
+<section className=' col-span-1 rounded-lg border-2 border-[#00fcfc]/80 m-2'>
 
 <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-2 rounded-lg'>
       <label className='flex items-center p-2'><IoPersonOutline /> <p className='m-2'>{t('form.formName')}</p></label>

@@ -20,7 +20,7 @@ export const CertificationLine = ({ certificado, id }) => {
 
 
   return (
-    <VerticalTimeline  lineColor={"rgba(255, 255, 255, 0.6)"} className="w-[100%] sm:w-[50%]">
+    <VerticalTimeline  lineColor={"rgba(255, 255, 255, 0.8)"} className="w-[100%] sm:w-[50%]">
       <VerticalTimelineElement
         key={id}
         className={
@@ -30,7 +30,7 @@ export const CertificationLine = ({ certificado, id }) => {
         }
         contentStyle={{
           background: "rgba(255, 255, 255, 0.1)",
-          color: "rgba(255, 255, 255, 0.6)",
+          color: "rgba(255, 255, 255, 0.8)",
           minWidth: "200px",
         }}
         contentArrowStyle={{ borderRight: "" }}

@@ -7,7 +7,7 @@ export const projects = [
     {
         id: 0,
         title: `E-Commerce GameStore React`,
-        description: `Descripción`,
+        description: `Project React`,
         img: `${reactPage}`,
         vercel: `https://primera-pre-entrega-kaar-carlos.vercel.app/`,
         technologies: [`React`, `JavaScript`, `FireBase`, `Hooks`, `API`,`useHooks`,`NodeJS`, `TailWind` ],
@@ -16,17 +16,17 @@ export const projects = [
     {
         id: 1,
         title: `E-Commerce Perfumería Oeste`,
-        description: `Descripción`,
+        description: `WebSite out service`,
         img: `${wpPage}`,
-        gitub: `prueba`,
-        vercel: `prueba`,
+        gitub: ``,
+        vercel: ``,
         technologies: [`WordPress`, `WOOcommerce`, `Elementor`, `Blog`, `MercadoPago Payment`],
 
     },
     {
         id: 2,
         title: `E-Commerce GameStore JS`,
-        description: `Descripción`,
+        description: `Project JavaScript`,
         img: `${jsPage}`,
         gitub: `https://github.com/CharlyKrDev/proyectoFinal_KaarCarlos`,
         vercel: `https://game-store-sigma-swart.vercel.app/`,
