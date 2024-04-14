@@ -11,7 +11,7 @@ export const CardCarrusel = ({logo}) => {
 
     <main className='flex-shrink-0 opacity-70 hover:scale-[110%] transition-all ease-in-out duration-100'>
         <header><h2 className='text-center mb-2 font-bold text-xs'>{logo.title}</h2></header>
-        <picture><img className='size-12 mx-6 my-2 object-contain ' src={`${logo.img}`} alt={`${logo.title}`} title={`${logo.title}`} />
+        <picture><img className='size-12 aspect-auto mx-6 my-2 object-contain ' src={`${logo.img}`} alt={`${logo.title}`} title={`${logo.title}`} />
         </picture>
         
     </main>
