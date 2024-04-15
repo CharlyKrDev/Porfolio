@@ -27,7 +27,7 @@ export const Layout = () => {
       </section>
       <section
         id="Projects"
-        className="min-h-screen ml-12 sm:ml-40  col-star-2 col-span-9 sm:mt-8 mt-0 m-auto w-[80%]">{" "}<h2 className={`${h2Layout}`}>
+        className="min-h-screen ml-12 sm:ml-40  col-star-2 col-span-9 sm:mt-8 mt-0 m-auto w-[80%] hidden">{" "}<h2 className={`${h2Layout}`}>
           {" "}
           <FaCode /> {t('layout.projects')}
         </h2>
