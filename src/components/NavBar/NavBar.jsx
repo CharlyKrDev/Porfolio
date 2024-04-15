@@ -56,7 +56,7 @@ export const NavBar = () => {
               </i>
             </a>
           </li>
-          <li className={´${iconsStyle} hidden´} title={t("navBar.projects")}>
+          <li className={`${iconsStyle} hidden`} title={t("navBar.projects")}>
             <a  href="#Projects" aria-label="Contáctanos" role="button">
               <i className="navIcon ">
                 <FaCode />
