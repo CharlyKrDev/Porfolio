@@ -32,7 +32,7 @@ i18n
             h1: "¡Hola! Soy",
             pStrong: "Un apasionado por el desarrollado de aplicaciones web.",
             p: "Mi enfoque principal es el",
-            p2: "aunque también estoy profundizando mis conocimientos en el",
+            p2: "aunque también estoy profundizando mis conocimientos en el ",
             pStrong2:
               " Siempre en busca de nuevos desafíos y oportunidades para seguir innovando.",
           },
@@ -152,7 +152,7 @@ i18n
             h1: "Hello! I am",
             pStrong: "Passionate about web application development.",
             p: "My main focus is on",
-            p2: "although I am also delving into",
+            p2: "although I am also delving into ",
             pStrong2:
               " Always seeking new challenges and opportunities to continue innovating.",
           },
@@ -271,7 +271,7 @@ i18n
             h1: "Ciao! Sono",
             pStrong: "Appassionato dello sviluppo di applicazioni web.",
             p: "Il mio principale focus è sul",
-            p2: "anche se sto approfondendo le mie conoscenze nel",
+            p2: "anche se sto approfondendo le mie conoscenze nel ",
             pStrong2:
               " Sempre alla ricerca di nuove sfide e opportunità per continuare a innovare.",
           },
