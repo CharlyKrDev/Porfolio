@@ -2,7 +2,14 @@
 ### Porfolio
 ## de Carlos Alberto Kaar
 =======
-![image](https://github.com/CharlyKrDev/Porfolio/assets/123911937/bdbeeaa0-beb1-459a-9092-360cf3df1ab4)
+Les presento mi porfolio!
+
+![Screenshot 2024-04-14 190522](https://github.com/CharlyKrDev/Porfolio/assets/123911937/3817e9c8-0616-4559-894c-2113055663ed)
+
+![image](https://github.com/CharlyKrDev/Porfolio/assets/123911937/4a9e816a-3105-4d4b-9869-290fac94a688)
+
+![image](https://github.com/CharlyKrDev/Porfolio/assets/123911937/b81006ab-796e-4be0-91fe-a5eeeb86b4e2)
+
 
 ## El porfolio ha sido desarrollado con la libreria React JS junto con VITE y para estilizar el framework TailwindCss
 
@@ -52,4 +59,10 @@ también se utilizó react icons
 
 ![image](https://github.com/CharlyKrDev/Porfolio/assets/123911937/39447d50-5104-4dfa-8321-94b5ea4b11b4)
 
+![image](https://github.com/CharlyKrDev/Porfolio/assets/123911937/66874e75-1e85-40f1-865c-52232f27dc78)
 
+
+
+ ### Gracias por tu tiempo!
+
+![image](https://github.com/CharlyKrDev/preEntregaBackEnd-Kaar-Carlos/assets/123911937/d08aafc7-0a03-446c-9fef-01376cb77bc5)
