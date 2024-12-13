@@ -88,7 +88,7 @@ i18n
           certification: {
             0: {
               title: "BackEnd",
-              desc: "Un curso de backEnd no relacional con proyecto de e-commerce que abarca Node.js, MongoDB y Express incluye la creación de una API RESTful con operaciones CRUD, autenticación de usuarios, validación de datos, seguridad, pruebas, despliegue en producción y optimización de rendimiento.",
+              desc: "He realizado con éxito el curso de backEnd no relacional con un proyecto de e-commerce que abarca Node.js, MongoDB y Express, incluyendo la creación de una API RESTful con operaciones CRUD, autenticación de usuarios, validación de datos, seguridad, pruebas, despliegue en producción y optimización de rendimiento.",
             },
             1: {
               title: "Desarrollador Front-end React",
