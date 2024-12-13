@@ -1,5 +1,4 @@
 
-import backCert from '../assets/img/certifications/0.png'
 import reactCert from '../assets/img/certifications/1.png'
 import jsCert from '../assets/img/certifications/2.png'
 import wpCert from '../assets/img/certifications/3.png'
@@ -7,21 +6,34 @@ import devCert from '../assets/img/certifications/4.png'
 import dataCert from '../assets/img/certifications/5.png'
 import gitCert from '../assets/img/certifications/6.png'
 import devUtn from '../assets/img/certifications/7.png'
+import backCert from '../assets/img/certifications/8.png'
+import fullStackCert from '../assets/img/certifications/9.png'
+
+
 
 
 
 export const certificadoIt = [
     {
         id:0,
+        title: "certification.9.title",
+        institution: 'CoderHouse',
+        description: 'certification.9.desc',
+        date: "certification.8.comple24",
+        top: true,
+        img:`${fullStackCert}`
+    },
+    {
+        id:1,
         title: "certification.0.title",
         institution: 'CoderHouse',
         description: 'certification.0.desc',
-        date: "certification.8.act",
-        top: false,
+        date: "certification.8.comple24",
+        top: true,
         img:`${backCert}`
     },
     {
-        id:1, 
+        id:2, 
         title: "certification.1.title",
         institution: 'CoderHouse',
         description: 'certification.1.desc',
@@ -30,7 +42,7 @@ export const certificadoIt = [
         img:`${reactCert}`
     },
     {
-        id: 2,
+        id: 3,
         title: "certification.2.title",
         institution: 'CoderHouse',
         description: 'certification.2.desc',
@@ -41,7 +53,7 @@ export const certificadoIt = [
     },
 
     {
-        id: 3,
+        id: 4,
         title: "certification.3.title",
         institution: 'CoderHouse',
         description: 'certification.3.desc',
@@ -51,7 +63,7 @@ export const certificadoIt = [
 
     },
     {
-        id: 4,
+        id: 5,
         title: "certification.4.title",
         institution: 'CoderHouse',
         description: 'certification.4.desc',
@@ -61,7 +73,7 @@ export const certificadoIt = [
 
     },
     {
-        id: 5,
+        id: 6,
         title: "certification.5.title",
         institution: 'Data & analytic',
         description: 'certification.5.desc',
@@ -71,7 +83,7 @@ export const certificadoIt = [
 
     },
     {
-        id: 6,
+        id: 7,
         title: "certification.6.title",
         institution: 'Microsoft Learn',
         description: 'certification.6.desc',
@@ -81,7 +93,7 @@ export const certificadoIt = [
 
     },
     {
-        id: 7,
+        id: 8,
         title: "certification.7.title",
         institution: 'Universidad Tecnológica Nacional e-Learning',
         description: 'certification.7.desc',

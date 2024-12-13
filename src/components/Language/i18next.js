@@ -88,7 +88,7 @@ i18n
           certification: {
             0: {
               title: "BackEnd",
-              desc: "Actualmente estoy realizando un curso de backend no relacional con proyecto de e-commerce que abarca Node.js, MongoDB y Express incluye la creación de una API RESTful con operaciones CRUD, autenticación de usuarios, validación de datos, seguridad, pruebas, despliegue en producción y optimización de rendimiento.",
+              desc: "Un curso de backEnd no relacional con proyecto de e-commerce que abarca Node.js, MongoDB y Express incluye la creación de una API RESTful con operaciones CRUD, autenticación de usuarios, validación de datos, seguridad, pruebas, despliegue en producción y optimización de rendimiento.",
             },
             1: {
               title: "Desarrollador Front-end React",
@@ -123,6 +123,10 @@ i18n
               act: "2024 - En curso",
               comple24: "2024 - Completado",
               comple18: "2018 - Completado",
+            },
+            9: {
+              title: "FullStack - MERN",
+              desc: "He finalizado con éxito la carrera de Full Stack, adquiriendo habilidades en el desarrollo de aplicaciones web con tecnologías como React, Node.js, Express, MongoDB y Firebase. Además, tengo experiencia en el uso de Git y GitHub para la colaboración en equipo y la gestión eficiente de proyectos.",
             },
           },
         },
@@ -209,7 +213,7 @@ i18n
           certification: {
             0: {
               title: "BackEnd",
-              desc: "I am currently taking a non-relational backend course with an e-commerce project that covers Node.js, MongoDB, and Express, including the creation of a RESTful API with CRUD operations, user authentication, data validation, security, testing, deployment to production, and performance optimization.",
+              desc: "I have successfully completed a non-relational backend course with an e-commerce project that covers Node.js, MongoDB, and Express, including the creation of a RESTful API with CRUD operations, user authentication, data validation, security, testing, deployment to production, and performance optimization.",
             },
             1: {
               title: "Front-end React Developer",
@@ -244,6 +248,10 @@ i18n
               act: "2024 - In progress",
               comple24: "2024 - Completed",
               comple18: "2018 - Completed",
+            },
+            9: {
+              title: "FullStack - MERN",
+              desc: "I have successfully completed the Full Stack program, gaining skills in developing web applications using technologies such as React, Node.js, Express, MongoDB, and Firebase. Additionally, I have experience using Git and GitHub for team collaboration and efficient project management.",
             },
           },
         },
@@ -328,7 +336,7 @@ i18n
           certification: {
             0: {
               title: "BackEnd",
-              desc: "Attualmente sto seguendo un corso di backend non relazionale con un progetto di e-commerce che include Node.js, MongoDB e Express, e che prevede la creazione di un'API RESTful con operazioni CRUD, autenticazione degli utenti, convalida dei dati, sicurezza, testing, distribuzione in produzione e ottimizzazione delle prestazioni.",
+              desc: "Ho completato con successo un corso di backend non relazionale con un progetto di e-commerce che include Node.js, MongoDB e Express, e che prevede la creazione di un'API RESTful con operazioni CRUD, autenticazione degli utenti, convalida dei dati, sicurezza, testing, distribuzione in produzione e ottimizzazione delle prestazioni.",
             },
             1: {
               title: "Sviluppatore Front-end React",
@@ -363,6 +371,10 @@ i18n
               act: "2024 - In corso di svolgimento",
               comple24: "2024 - Completato",
               comple18: "2018 - Completato",
+            },
+            9: {
+              title: "FullStack - MERN",
+              desc: "Ho completato con successo il corso Full Stack, acquisendo competenze nello sviluppo di applicazioni web con tecnologie come React, Node.js, Express, MongoDB e Firebase. Inoltre, ho esperienza nell'uso di Git e GitHub per la collaborazione in team e la gestione efficiente dei progetti.",
             },
           },
         },

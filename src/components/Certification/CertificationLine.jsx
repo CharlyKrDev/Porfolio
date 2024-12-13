@@ -1,4 +1,3 @@
-import React from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -43,9 +42,9 @@ export const CertificationLine = ({ certificado, id }) => {
         }}
         icon={<GiDiploma/>}
         >
-        <div className="">
+        <div className="z-10 relative">
         <img
-          className="h-200px cursor-pointer transition-all ease-in-out duration-500 transform active:scale-[200%] border-2"
+          className="h-200px cursor-pointer transition-all ease-in-out duration-500 transform active:scale-[150%] border-2"
           src={`${certificado.img}`}
           alt={t(certificado.title)}
         />

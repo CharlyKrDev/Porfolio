@@ -18,7 +18,7 @@ export const projects = [
         title: `E-Commerce Perfumería Oeste`,
         description: `WebSite out service`,
         img: `${wpPage}`,
-        gitub: ``,
+        gitub: `#`,
         vercel: ``,
         technologies: [`WordPress`, `WOOcommerce`, `Elementor`, `Blog`, `MercadoPago Payment`],
 
