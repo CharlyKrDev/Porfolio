@@ -55,7 +55,7 @@ i18n
           skills: {
             skillsH2: "Habilidades",
             skillsP2:
-              "Hablo español de forma nativa, ingles nivel B2 y estoy aprendiendo italiano A1-A2.",
+              "Hablo español de forma nativa, ingles nivel A2 y estoy aprendiendo italiano A2.",
             skillsP3:
               "Estoy familiarizado con la metodología LEAN, y me estoy certificado en SCRUM y AGILE.",
             skillsP4:
@@ -177,7 +177,7 @@ i18n
           skills: {
             skillsH2: "Skills",
             skillsP2:
-              "I am a native Spanish speaker, have a B2 level of English, and I am learning Italian at an A1-A2 level.",
+              "I am a native Spanish speaker, have a A2 level of English, and I am learning Italian at an A2 level.",
             skillsP3:
               "I am familiar with LEAN methodology and am certified in SCRUM and AGILE.",
             skillsP4:
@@ -301,7 +301,7 @@ i18n
           skills: {
             skillsH2: "Competenze",
             skillsP2:
-              "Parlo spagnolo come lingua madre, ho un livello B2 di inglese e sto imparando l' italiano a un livello A1-A2.",
+              "Parlo spagnolo come lingua madre, ho un livello A2 di inglese e sto imparando l' italiano a un livello A2.",
             skillsP3:
               " Sono familiare con la metodologia LEAN e sono certificato in SCRUM e AGILE.",
             skillsP4:
